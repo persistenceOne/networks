@@ -1,6 +1,6 @@
 {
     "genesis_time": "2019-07-29T11:15:12.739822228Z",
-    "chain_id": "test-chain-F7sP8L",
+    "chain_id": "crust-1",
     "consensus_params": {
       "block_size_params": {
         "max_bytes": "22020096",
