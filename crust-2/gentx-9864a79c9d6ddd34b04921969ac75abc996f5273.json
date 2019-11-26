@@ -1,0 +1,47 @@
+{
+    "type":"cosmos-sdk/StdTx",
+    "value":{
+        "msg":[
+            {
+                "type":"cosmos-sdk/MsgCreateValidator",
+                "value":{
+                    "description":{
+                        "moniker":"stake.fish",
+                        "identity":"",
+                        "website":"https://stake.fish",
+                        "details":""
+                    },
+                    "commission":{
+                        "rate":"0.100000000000000000",
+                        "max_rate":"0.200000000000000000",
+                        "max_change_rate":"0.010000000000000000"
+                    },
+                    "min_self_delegation":"1",
+                    "delegator_address":"commit19hzt3ljffhvuufd30r2fg4nvgacffrsxhat9kh",
+                    "validator_address":"commitvaloper19hzt3ljffhvuufd30r2fg4nvgacffrsxsur777",
+                    "pubkey":"commitvalconspub1zcjduepq7mppx56g54ysctpdfrswv3335myw5jzj8trw4yucz2p7evc685fsh90utc",
+                    "value":{
+                        "denom":"ucommit",
+                        "amount":"100000000"
+                    }
+                }
+            }
+        ],
+        "fee":{
+            "amount":[
+                
+            ],
+            "gas":"200000"
+        },
+        "signatures":[
+            {
+                "pub_key":{
+                    "type":"tendermint/PubKeySecp256k1",
+                    "value":"AiG/7mFHbqPz527I5mgVb1Q25pY5UsdQEnp6y4L5KA+l"
+                },
+                "signature":"4qY1lmpCgHczKUpqFdUDP3px1CkWAeMUzzgRMSeOH3oY79ap32t98IO3qbYzqjyZxH7fNVmUSIumqLJ6EBPMdQ=="
+            }
+        ],
+        "memo":"9864a79c9d6ddd34b04921969ac75abc996f5273@165.22.250.35:26656"
+    }
+}
