@@ -1,0 +1,45 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "DokiaCapital",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "0.200000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "commit1wkvyjltjpd57hs5w7t56dx5g5ddsnelpmd47d9",
+          "validator_address": "commitvaloper1wkvyjltjpd57hs5w7t56dx5g5ddsnelpuva99v",
+          "pubkey": "commitvalconspub1zcjduepqwrpjs3lnt4mka73w5ce85gj9epjxsp3xwpsfa80amdgmj8md8pfqwkpu0r",
+          "value": {
+            "denom": "ucommit",
+            "amount": "100000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A8jU7hmoh6raxKkGyu3SPYFRWHyfiC9GPNdzje7ypE9G"
+        },
+        "signature": "q+C5svwXSyhxYa5mIP1iQPVwa5g/ZJAS6Dn42erMnWsRZ08AnoGPrLIPAop5GtVLOLQCnokOCAYHmXByRXN1FA=="
+      }
+    ],
+    "memo": "7a31f8c45e32e65384f5d7034ef255d81bb27681@89.33.8.236:26656"
+  }
+}
