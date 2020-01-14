@@ -1,5 +1,5 @@
 
-Crust-1 : Setup of the CommitBlockchain
+Crust-1 : Setup of the Persistence Blockchain
 ===
 
 
@@ -59,19 +59,19 @@ You can also append the above lines to $HOME/.bashrc file and run the following 
 
 
 
-## CommitBlockchain : Installation
+## Persitence Blockchain : Installation
 
-1. Install commit-blockchain from the official [commitHub](https://github.com/commitHub/commitBlockchain) repository
+1. Install Persistence Blockchain from the official [persistenceSDK](https://github.com/persistenceOne/persistenceSDK) repository
 
-    `go get -u github.com/commitHub/commitBlockchain`
+    `go get -u github.com/persistenceOne/persistenceSDK
     
-2. Navigate to the `commit-blockchain` folder
+2. Navigate to the `Persistence Blockchain` folder
 
-    `cd $GOPATH/src/github.com/commitHub/commitBlockchain`
+    `cd $GOPATH/src/github.com/persistenceOne/persistenceSDK`
 ![](https://i.imgur.com/NibWpv4.png)
 
 
-3. Run following command to install the `commitBlockchain`
+3. Run following command to install the `Persistence Blockchain`
 4. 
     `git checkout version0`
     
@@ -85,10 +85,10 @@ You can also append the above lines to $HOME/.bashrc file and run the following 
 
 
 
-Commit-Blockchain : Validator at Genesis
+Persistence Blockchain : Validator at Genesis
 ---
 
-1. After the installation of [commitBlockchain](https://github.com/commitHub/commitBlockchain)
+1. After the installation of [persistence Blockchain](https://github.com/persistenceOne/persistenceSDK)
 
     `maind init --name [moniker]`
 
@@ -115,10 +115,10 @@ Commit-Blockchain : Validator at Genesis
 
 
 <br>
-<div class="header">Pull request to Commit Testnet repo</div>
+<div class="header">Pull request to Persistence Alpha-net repo</div>
 <br>
 
-1. Fork the official [CommitHub genesisTransactions](https://github.com/commitHub/genesisTransactions) repository.
+1. Fork the official [persistenceOne genesisTransactions](https://github.com/persistenceOne/persistenceSDK) repository.
 
 2. Clone the the repo form your github repository
 
@@ -175,17 +175,17 @@ Commit-Blockchain : Validator at Genesis
      ![](https://i.imgur.com/uBkNTr2.png)
      
     
-   Create the pull request to [CommitHub genesisTransactions](https://github.com/commitHub/genesisTransactions) repository repo
+   Create the pull request to [persistenceOne genesisTransactions](https://github.com/persistenceOne/persistenceSDK) repository repo
     
   After submitting the PR, the repository maintainers will merge in case of no issues. If not, issues will be commented upon.  
     
     
 
-Commit-Blockchain : Validator post genesis
+Persistence Blockchain : Validator post genesis
 ---
 1. before testnet  start `master` will have `genesis.json` and `peers.json` file
 
-    `wget          https://raw.githubusercontent.com/commitHub/genesisTransactions/master/ \
+    `wget          https://raw.githubusercontent.com/persistenceOne/persistenceSDK/master/ \
     crust-1/genesis.json`
     
 2. Copy the genesis 
