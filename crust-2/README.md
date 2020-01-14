@@ -4,7 +4,7 @@ List of documents provide the information about, setup Persistence Blockchain an
 
 # Table of Contents
 
-1. **[Setup of CommitBlockchain](./documents/1.setup.md)**
+1. **[Setup of Persistence Blockchain](./documents/1.setup.md)**
 2. **[Submitting Genesis Transaction](./documents/2.gentx.md)**
 
 # Peer Info (Crust-2)
