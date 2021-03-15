@@ -70,7 +70,7 @@ persistenceCore gentx {{KEY_NAME}} 10000000uxprt \
 * Fork the [repository](https://github.com/persistenceOne/genesisTransactions)
 * Create a file `gentx-{{VALIDATOR_NAME}}.json` under the test-core-1/gentxs folder in the forked repo, paste the copied text into the file. Find reference file gentx-examplexxxxxxxx.json in the same folder.
 * Run `persistenceCore tendermint show-node-id` and copy your nodeID.
-* Run `ifconfig` and copy your public IP address.
+* Run `ifconfig` or `curl ipinfo.io/ip` and copy your publicly reachable IP address.
 * Create a file `peers-{{VALIDATOR_NAME}}.json` under the test-core-1/peers folder in the forked repo, paste the copied text from the last two steps into the file. Find reference file peers-examplexxxxxxxx.json in the same folder.
 * Create a Pull Request to the `master` branch of the [repository](https://github.com/persistenceOne/genesisTransactions)
 >**NOTE:** the Pull Request will be merged by the maintainers as a confirmation of inclusion of the validator at the genesis. The final genesis file will be published under the file test-core-1/final_genesis.json.
@@ -94,3 +94,36 @@ persistenceCore init {{NODE_NAME}}
 ```shell
 persistenceCore start
 ```
+* Acquire $XPRT by sending a message to the community [telegram](https://t.me/PersistenceOneChat).
+* Create validator public key
+```
+persistenceCore init {{NODE_NAME}}
+```
+* Run `persistenceCore tendermint show-validator` and copy your consensus public key.
+* Send create validator transaction
+```
+persistenceCore tx staking create-validator \
+--from {{KEY_NAME}} \
+--amount XXXXXXXXuxprt \
+--pubkey persistencevalconspubXXXXXXXX
+--chain-id test-core-1 \
+--moniker="{{VALIDATOR_NAME}}" \
+--commission-max-change-rate=0.01 \
+--commission-max-rate=1.0 \
+--commission-rate=0.07 \
+--min-self-delegation="1" \
+--details="XXXXXXXX" \
+--security-contact="XXXXXXXX" \
+--website="XXXXXXXX"
+```
+## Binary 
+The binary can be downloaded from [here](https://audit-binaries.s3.ap-south-1.amazonaws.com/persistence/linux/persistenceCore). Please verify the binary details:
+* hash: sha256 f0df907fda78949c7ec922b5d52a63f4ebcdf305617f79fe9ae86ce1d5fce83d
+* name: persistenceCore
+* server_name: persistenceCore
+* version: 19ffc6d
+* commit: 19ffc6d
+* build_tags: netgo
+
+## Genesis Time
+The genesis transactions sent before 1200HRS UTC will used to publish the final_genesis.json at 1300HRS UTC. 
