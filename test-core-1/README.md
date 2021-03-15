@@ -1,5 +1,6 @@
 # test-core-1 
 > GENESIS PUBLISHED
+
 1st testnet for persistenceCore application.
 
 ## Hardware Requirements
