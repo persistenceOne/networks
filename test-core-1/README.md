@@ -49,7 +49,7 @@ or
 
 ## Validator setup
 
-### Before genesis
+### Before genesis: NOW CLOSED
 
 * [Install](#installation-steps) persistence core application
 * Initialize node
@@ -126,4 +126,4 @@ The binary can be downloaded from [here](https://audit-binaries.s3.ap-south-1.am
 * build_tags: netgo
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC will used to publish the final_genesis.json at 1300HRS UTC. 
+The genesis transactions sent before 1200HRS UTC 15th March 2021 will used to publish the final_genesis.json at 1300HRS UTC 15th March 2021. 
