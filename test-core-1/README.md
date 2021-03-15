@@ -55,6 +55,16 @@ or
 * Initialize node
 ```shell
 persistenceCore init {{NODE_NAME}} --chain-id test-core-1
+persistenceCore add-genesis-account {{KEY_NAME}} 100000000000000uxprt
+persistenceCore gentx {{KEY_NAME}} 10000000uxprt \
+--chain-id test-core-1 \
+--moniker="{{VALIDATOR_NAME}}" \
+--commission-max-change-rate=0.01 \
+--commission-max-rate=1.0 \
+--commission-rate=0.07 \
+--details="XXXXXXXX" \
+--security-contact="XXXXXXXX" \
+--website="XXXXXXXX"
 ```
 * Copy the contents of `${HOME}/.persistenceCore/config/gentx/gentx-XXXXXXXX.json`.
 * Fork the [repository](https://github.com/persistenceOne/genesisTransactions)
