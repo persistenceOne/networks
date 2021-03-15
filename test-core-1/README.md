@@ -54,9 +54,9 @@ or
 * [Install](#installation-steps) persistence core application
 * Initialize node
 ```shell
-persistenceCore init {{NODE_NAME}}
+persistenceCore init {{NODE_NAME}} --chain-id test-core-1
 ```
-* Copy the `genutil` JSON object from the `${HOME}/.persistenceCore/config/genesis.json`.
+* Copy the contents of `${HOME}/.persistenceCore/config/gentx/gentx-XXXXXXXX.json`.
 * Fork the [repository](https://github.com/persistenceOne/genesisTransactions)
 * Create a file `gentx-{{VALIDATOR_NAME}}.json` under the test-core-1/gentxs folder in the forked repo, paste the copied text into the file. Find reference file gentx-examplexxxxxxxx.json in the same folder.
 * Run `persistenceCore tendermint show-node-id` and copy your nodeID.
