@@ -1,5 +1,6 @@
 # test-core-1 
 > GENESIS PUBLISHED
+> PEERS PUBLISHED
 
 1st testnet for persistenceCore application.
 
