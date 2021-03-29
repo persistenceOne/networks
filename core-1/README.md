@@ -133,10 +133,10 @@ Commit Hash: b0aec611d0b9570f257b31df15cb32b4f4d316d0
 The binary can be downloaded from [here](https://github.com/persistenceOne/persistenceCore/releases/tag/v0.1.1).
 
 ## Explorer
-The explorer for this chain is hosted [here](explorer.persistence.one)
+The explorer for this chain is hosted [here](https://explorer.persistence.one)
 
 ## Wallet
-The wallet application for this chain is hosted [here](wallet.persistence.one)
+The wallet application for this chain is hosted [here](https://wallet.persistence.one)
 
 ## Genesis Time
 The genesis transactions sent before 1200HRS UTC 30th March 2021 will be used to publish the final_genesis.json at 1300HRS UTC 30th March 2021. The genesis will start immediately after as soon as a quorum is reached.
