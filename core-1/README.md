@@ -47,7 +47,7 @@ make all
 ```
 persistenceCore version
 ```
-> The current version is 19ffc6d
+> The current version is b0aec61
 
 ### Generate keys
 
