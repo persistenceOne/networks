@@ -35,12 +35,12 @@ git clone https://github.com/persistenceOne/persistenceCore.git
 ```
 * Checkout release tag
 ```shell
+cd persistenceCore
 git fetch --tags
 git checkout v0.1.1
 ```
 * Install
 ```shell
-cd persistenceCore
 make all
 ```
 
