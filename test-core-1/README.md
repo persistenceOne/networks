@@ -33,7 +33,7 @@ git clone https://github.com/persistenceOne/persistenceCore.git
 * Checkout release tag
 ```shell
 git fetch --tags
-git checkout v0.1.0
+git checkout v0.1.1
 ```
 * Install
 ```shell
@@ -76,7 +76,7 @@ persistenceCore gentx {{KEY_NAME}} 10000000uxprt \
 * Run `ifconfig` or `curl ipinfo.io/ip` and copy your publicly reachable IP address.
 * Create a file `peers-{{VALIDATOR_NAME}}.json` under the test-core-1/peers folder in the forked repo, paste the copied text from the last two steps into the file. Find reference file peers-examplexxxxxxxx.json in the same folder.
 * Create a Pull Request to the `master` branch of the [repository](https://github.com/persistenceOne/genesisTransactions)
->**NOTE:** the Pull Request will be merged by the maintainers as a confirmation of inclusion of the validator at the genesis. The final genesis file will be published under the file test-core-1/final_genesis.json.
+>**NOTE:** the Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file test-core-1/final_genesis.json.
 * Replace the contents of your `${HOME}/.persistenceCore/config/genesis.json` with that of test-core-1/final_genesis.json.
 * Add `persistent_peers` or `seeds` in `${HOME}/.persistenceCore/config/config.toml` from test-core-1/final_peers.json.
 * Start node
@@ -99,7 +99,7 @@ persistenceCore start
 ```
 * Acquire $XPRT by sending a message to the community [telegram](https://t.me/PersistenceOneChat).
 * Run `persistenceCore tendermint show-validator` and copy your consensus public key.
-* Send create validator transaction
+* Send a create-validator transaction
 ```
 persistenceCore tx staking create-validator \
 --from {{KEY_NAME}} \
@@ -115,14 +115,19 @@ persistenceCore tx staking create-validator \
 --security-contact="XXXXXXXX" \
 --website="XXXXXXXX"
 ```
+## Version
+This chain is currently running on persistenceCore [v0.1.1](https://github.com/persistenceOne/persistenceCore/releases/tag/v0.1.1)
+Commit Hash: b0aec611d0b9570f257b31df15cb32b4f4d316d0
+>Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
+
 ## Binary 
-The binary can be downloaded from [here](https://audit-binaries.s3.ap-south-1.amazonaws.com/persistence/linux/persistenceCore). Please verify the binary details:
-* hash: sha256 f0df907fda78949c7ec922b5d52a63f4ebcdf305617f79fe9ae86ce1d5fce83d
-* name: persistenceCore
-* server_name: persistenceCore
-* version: 19ffc6d
-* commit: 19ffc6d
-* build_tags: netgo
+The binary can be downloaded from [here](https://github.com/persistenceOne/persistenceCore/releases/tag/v0.1.1).
+
+## Explorer
+The explorer for this chain is hosted [here](test-core-1.explorer.persistence.one)
+
+## Wallet
+The wallet application for this chain is hosted [here](test-core-1.wallet.persistence.one)
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC 15th March 2021 will used to publish the final_genesis.json at 1300HRS UTC 15th March 2021. 
+The genesis transactions sent before 1200HRS UTC 15th March 2021 will be used to publish the final_genesis.json at 1300HRS UTC 15th March 2021. 
