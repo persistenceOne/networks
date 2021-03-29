@@ -98,10 +98,6 @@ persistenceCore init {{NODE_NAME}}
 persistenceCore start
 ```
 * Acquire $XPRT by sending a message to the community [telegram](https://t.me/PersistenceOneChat).
-* Create validator public key
-```
-persistenceCore init {{NODE_NAME}}
-```
 * Run `persistenceCore tendermint show-validator` and copy your consensus public key.
 * Send create validator transaction
 ```
