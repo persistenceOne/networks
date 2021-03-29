@@ -43,6 +43,11 @@ git checkout v0.1.1
 ```shell
 make all
 ```
+* Verify version
+```
+persistenceCore version
+```
+> The current version is 19ffc6d
 
 ### Generate keys
 
