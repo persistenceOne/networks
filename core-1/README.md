@@ -60,7 +60,7 @@ or
 
 ## Validator setup
 
-### Before genesis: CLOSED please refer to section [Post Genesis](post-genesis)
+### Before genesis: CLOSED please refer to section [Post Genesis](#post-genesis)
 
 * [Install](#installation-steps) persistence core application
 * Initialize node
