@@ -1,0 +1,61 @@
+{
+    "auth_info": {
+        "fee": {
+            "amount": [],
+            "gas_limit": "200000",
+            "granter": "",
+            "payer": ""
+        },
+        "signer_infos": [
+            {
+                "mode_info": {
+                    "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                    }
+                },
+                "public_key": {
+                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                    "key": "AowjjEaSsWNPSkQFlXpsLq2km33awwxoey4rB4+jhsMN"
+                },
+                "sequence": "0"
+            }
+        ]
+    },
+    "body": {
+        "extension_options": [],
+        "memo": "7c106099b8d07085431a97387e5a5db2d1ecd71d@172.31.10.122:26656",
+        "messages": [
+            {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "commission": {
+                    "max_change_rate": "0.100000000000000000",
+                    "max_rate": "1.000000000000000000",
+                    "rate": "0.100000000000000000"
+                },
+                "delegator_address": "persistence12g6lzym9p4de93vemyqd78qqmuyncy43u4llaq",
+                "description": {
+                    "details": "",
+                    "identity": "",
+                    "moniker": "Amaranthine",
+                    "security_contact": "",
+                    "website": ""
+                },
+                "min_self_delegation": "1",
+                "pubkey": {
+                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                    "key": "6wnsNKw6yiBmO0ODZNotG1Gm6XxbUQFP6Pc03naBH1I="
+                },
+                "validator_address": "persistencevaloper12g6lzym9p4de93vemyqd78qqmuyncy4343lz5e",
+                "value": {
+                    "amount": "1000000000",
+                    "denom": "uxprt"
+                }
+            }
+        ],
+        "non_critical_extension_options": [],
+        "timeout_height": "0"
+    },
+    "signatures": [
+        "DdwErT6626XctPOwxcOmKBFjBD7PCvwfmDl/hLS6TgNgnAzju5lrWLYs7YWLDpcEV77noD9J4TO8q+nTTiOzEw=="
+    ]
+}
