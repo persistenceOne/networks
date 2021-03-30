@@ -66,8 +66,8 @@ or
 * Initialize node
 ```shell
 persistenceCore init {{NODE_NAME}} --chain-id core-1
-persistenceCore add-genesis-account {{KEY_NAME}} XXXXXXXXuxprt
-persistenceCore gentx {{KEY_NAME}} XXXXXXXXuxprt \
+persistenceCore add-genesis-account {{KEY_NAME}} 1000000000uxprt
+persistenceCore gentx {{KEY_NAME}} 1000000000uxprt \
 --chain-id core-1 \
 --moniker="{{VALIDATOR_NAME}}" \
 --commission-max-change-rate=0.01 \
