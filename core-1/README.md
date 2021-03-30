@@ -3,7 +3,7 @@
  
 > GENESIS TO BE PUBLISHED AT UTC 1200 30th MARCH 2021
  
-> PEERS TO BE PUBLISHED AT UTC 1200 30th MARCH 2021
+> FINAL PEERS PUBLISHED
 
 1st main-net for persistenceCore application.
 
