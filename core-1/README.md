@@ -41,7 +41,7 @@ git checkout v0.1.1
 ```
 * Install
 ```shell
-make all
+make install
 ```
 * Verify version
 ```
