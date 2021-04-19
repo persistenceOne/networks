@@ -105,17 +105,16 @@ persistenceCore init {{NODE_NAME}}
 ```shell
 persistenceCore start
 ```
-* Run `persistenceCore tendermint show-validator` and copy your consensus public key.
-* Send a create-validator transaction, with `--pubkey` value as the key copied in the last step
+* Acquire $XPRT tokens to self delegate to your validator node.
+* Send a create-validator transaction
 ```
 persistenceCore tx staking create-validator \
 --from {{KEY_NAME}} \
 --amount XXXXXXXXuxprt \
---pubkey persistencevalconspubXXXXXXXX \
+--pubkey "$(persistenceCore tendermint show-validator)" \
 --chain-id core-1 \
 --moniker="{{VALIDATOR_NAME}}" \
 --commission-max-change-rate=0.01 \
---commission-max-rate=1.0 \
 --commission-max-rate=1.0 \
 --commission-rate=0.07 \
 --min-self-delegation="1" \
