@@ -41,7 +41,7 @@ git checkout v0.1.1
 ```
 * Install
 ```shell
-make all
+make install
 ```
 * Verify version
 ```
@@ -105,7 +105,7 @@ persistenceCore init {{NODE_NAME}}
 ```shell
 persistenceCore start
 ```
-* Acquire $XPRT by sending a message to the community [telegram](https://t.me/PersistenceOneChat).
+* Acquire $XPRT tokens to self delegate to your validator node.
 * Send a create-validator transaction
 ```
 persistenceCore tx staking create-validator \
