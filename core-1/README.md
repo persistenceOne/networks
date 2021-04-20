@@ -130,7 +130,7 @@ Commit Hash: e72e5750b178f4d61e862095db5a217b8f40e301
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
 ## Binary 
-The binary can be downloaded from [here](https://github.com/persistenceOne/persistenceCore/releases/tag/v0.1.1).
+The binary can be downloaded from [here](https://github.com/persistenceOne/persistenceCore/releases/tag/v0.1.2).
 
 ## Explorer
 The explorer for this chain will hosted [here](https://explorer.persistence.one) after the chain goes live.
