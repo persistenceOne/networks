@@ -34,7 +34,7 @@ git clone https://github.com/persistenceOne/persistenceCore.git
 * Checkout release tag
 ```shell
 git fetch --tags
-git checkout v0.1.2
+git checkout v0.1.3
 ```
 * Install
 ```shell
@@ -117,12 +117,12 @@ persistenceCore tx staking create-validator \
 --website="XXXXXXXX"
 ```
 ## Version
-This chain is currently running on persistenceCore [v0.1.2](https://github.com/persistenceOne/persistenceCore/releases/tag/v0.1.2)
-Commit Hash: e72e5750b178f4d61e862095db5a217b8f40e301
+This chain is currently running on persistenceCore [v0.1.3](https://github.com/persistenceOne/persistenceCore/releases/tag/v0.1.2)
+Commit Hash: a555ac81cd3ab856d2d5305414e8a00d24d2043c
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
 ## Binary 
-The binary can be downloaded from [here](https://github.com/persistenceOne/persistenceCore/releases/tag/v0.1.2).
+The binary can be downloaded from [here](https://github.com/persistenceOne/persistenceCore/releases/tag/v0.1.3).
 
 ## Explorer
 The explorer for this chain is hosted [here](test-core-1.explorer.persistence.one)
