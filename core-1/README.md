@@ -99,10 +99,13 @@ persistenceCore start
 * [Install](#installation-steps) persistence core application
 * Initialize node
 ```shell
-persistenceCore init {{NODE_NAME}}
+persistenceCore init {{NODE_NAME}} --chain-id core-1
 ```
 * Replace the contents of your `${HOME}/.persistenceCore/config/genesis.json` with that of core-1/final_genesis.json from the `master` branch of [repository](https://github.com/persistenceOne/genesisTransactions).
-* Add `persistent_peers` or `seeds` in `${HOME}/.persistenceCore/config/config.toml` from core-1/final_peers.json from the `master` branch of [repository](https://github.com/persistenceOne/genesisTransactions).
+* Verify checksum `sha265sum genesis.json` matches `673d30abd133a13210bf271d8a52aabc3f1b12c0864f543f4313f7f9589bdb53`
+* Inside file `${HOME}/.persistenceCore/config/config.toml`, 
+  * set `seeds` to `"ad5f2c3203161d603ff659b7e343fd19483f798e@65.0.106.150:26656,5b27a6d4cf33909c0e5b217789e7455e261941d1@15.222.29.207:26656"`.
+  * If your node has a public ip, set it in `external_address = "tcp://<public-ip>:26656"`, else leave the filed empty.
 * Set `minimum-gas-prices` in `${HOME}/.persistenceCore/config/app.toml` with the minimum price you want (example `0.005uxprt`) for the security of the network.
 * Start node
 ```shell
