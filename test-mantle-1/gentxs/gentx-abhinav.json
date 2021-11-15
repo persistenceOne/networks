@@ -1,0 +1,46 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "abhinav",
+            "identity": "",
+            "website": "https://github.com/avkr003",
+            "security_contact": "abhinav@persistence.one",
+            "details": "test validator"
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "1.000000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "mantle10dv96us927fghfqrnm2pmrcvkhupx66lj8gm6t",
+          "validator_address": "mantlevaloper10dv96us927fghfqrnm2pmrcvkhupx66ljcv0p7",
+          "pubkey": "mantlevalconspub1zcjduepqhsl3c5fx02dwx4ghrvs5gf5nr6vrmytcgvgvh2lvqvmvtg6vumhs55lgt4",
+          "value": {
+            "denom": "umantle",
+            "amount": "1000000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "Aqbrta/gYnOY9yjbGb1iEtcQMIhOmbPrXrDd2nJAKhLC"
+        },
+        "signature": "b1WAWVAZl4+SfUALER4bDqcVReK7Llq/zRnuJe21+oYzTcJ9HpFFExYJOgTAx0lZ8+7DWkDQFcK1XczIgzGE1Q=="
+      }
+    ],
+    "memo": "55e140356200cecaa8f47b24cbbef6147caadda2@192.168.61.24:26656"
+  }
+}
