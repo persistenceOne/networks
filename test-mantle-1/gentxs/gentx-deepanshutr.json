@@ -1,0 +1,46 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "deepanshutr",
+            "identity": "",
+            "website": "XXXXXXXX",
+            "security_contact": "XXXXXXXX",
+            "details": "XXXXXXXX"
+          },
+          "commission": {
+            "rate": "0.070000000000000000",
+            "max_rate": "1.000000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "mantle1s75vxcmw4d5rf824ceyrmw90x53uf3x702ffay",
+          "validator_address": "mantlevaloper1s75vxcmw4d5rf824ceyrmw90x53uf3x704dax3",
+          "pubkey": "mantlevalconspub1zcjduepquu4uw5ghr655kpk9fk3rs8ztxpw98g0p26p0246d797awrf49q8qzh7flg",
+          "value": {
+            "denom": "umantle",
+            "amount": "1000000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A8k3jZTaffrdE3J7LT6vxMxP+36UzGsjRp2gKE9ooN+a"
+        },
+        "signature": "8GiVyBsypEqaxjX0GYHba65aojbr9A2n3j87B5t1dNtcLh6jR8BU0JVBZ+cGKT+ypSo2KShMRX5a87OP9k6mNg=="
+      }
+    ],
+    "memo": "9641267efa0a93409d15ff3ccd15e8da86a5f60b@10.10.0.85:26656"
+  }
+}
