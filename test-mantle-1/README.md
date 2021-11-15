@@ -43,13 +43,13 @@ git checkout v0.1.1
 ```
 * Install
 ```shell
-make all
+make install
 ```
 * Verify version
 ```
 assetNode version
 ```
-> The current version is #####b0aec61
+> The current version is HEAD-bc9c3cbb5b2c55dad8ee2c7dd125bb8500c95bb0
 
 ### Generate keys
 
