@@ -1,0 +1,46 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "melrose",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "commission": {
+            "rate": "1.000000000000000000",
+            "max_rate": "1.000000000000000000",
+            "max_change_rate": "1.000000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "mantle1vz5fgqejw54f09u4njyqsw7lcgux90dtx6mtqe",
+          "validator_address": "mantlevaloper1vz5fgqejw54f09u4njyqsw7lcgux90dtx9llmv",
+          "pubkey": "mantlevalconspub1zcjduepqexrrrhzr2ju7scdkq30hwql5hs3r6u4mafamlaptgukeclvnsjxsxtuney",
+          "value": {
+            "denom": "umantle",
+            "amount": "1000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "AkAuubqYQvRkBH63txSVAls8gHOOKMqwIqKXHiYC5r0Q"
+        },
+        "signature": "adD2eAs7M2mi4dfyVgxZpWC6edHQlOYHS1KgmNGrzc0FpfQ34lXbTUgaUFO4crTY2tUAHmwZkUx1ADzIjcjmBg=="
+      }
+    ],
+    "memo": "8cf1d7933b60de02b87e2c13ee90cc78ee770e49@10.0.33.246:26656"
+  }
+}
