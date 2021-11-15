@@ -33,7 +33,7 @@
 
 * Clone git repository
 ```shell
-git clone git@github.com:persistenceOne/assetMantle.git
+git clone https://github.com/persistenceOne/assetMantle.git
 ```
 * Checkout release tag
 ```shell
@@ -43,13 +43,13 @@ git checkout v0.1.1
 ```
 * Install
 ```shell
-make all
+make install
 ```
 * Verify version
 ```
 assetNode version
 ```
-> The current version is #####b0aec61
+> The current version is HEAD-bc9c3cbb5b2c55dad8ee2c7dd125bb8500c95bb0
 
 ### Generate keys
 
@@ -67,10 +67,10 @@ or
 * [Install](#installation-steps) assetMantle application
 * Initialize node
 ```shell
-assetNode init {{NODE_NAME}} --chain-id test-mantle-1
+assetNode init {{VALIDATOR_NAME}} --chain-id test-mantle-1
 assetNode add-genesis-account {{KEY_NAME}} 1000000000umantle
-assetNode gentx --name {{KEY_NAME}} --amount 1000000000umantle \
---name="{{VALIDATOR_NAME}}" \
+assetNode gentx --amount 1000000000umantle \
+--name="{{KEY_NAME}}" \
 --commission-max-change-rate=0.01 \
 --commission-max-rate=1.0 \
 --commission-rate=0.07 \
