@@ -33,7 +33,7 @@
 
 * Clone git repository
 ```shell
-git clone git@github.com:persistenceOne/assetMantle.git
+git clone https://github.com/persistenceOne/assetMantle.git
 ```
 * Checkout release tag
 ```shell
