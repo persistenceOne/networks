@@ -1,0 +1,46 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "dual.systems",
+            "identity": "86AFEC0A2EB34700",
+            "website": "https://dual.systems",
+            "security_contact": "noc@dual.systems",
+            "details": "We maintain stable growth."
+          },
+          "commission": {
+            "rate": "0.078000000000000000",
+            "max_rate": "1.000000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "mantle19a5g9560q3m8vktvttlkrprkln05n7max96sm8",
+          "validator_address": "mantlevaloper19a5g9560q3m8vktvttlkrprkln05n7max67yqj",
+          "pubkey": "mantlevalconspub1zcjduepqrfsq9tdndn03j8lfyleu2layj37wkje22njns95gvzkuee0qtfeq9aq7w0",
+          "value": {
+            "denom": "umantle",
+            "amount": "1000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "Az+R112eXbwr58NF9BOeWk6pquLeM2reDbLxOh7PjxvW"
+        },
+        "signature": "U/ko5UR4xujxE261d6l+s0RlEYH5n21lMOSpHw7M7gNH8i/ZWZN8cl3OXCkWcSKON1DgfpVhFtuX+OaZ025CZA=="
+      }
+    ],
+    "memo": "0d5aeee7e361f26e964c960b56afd45670c38d93@192.168.17.39:26656"
+  }
+}
