@@ -1,0 +1,42 @@
+{
+    "type": "cosmos-sdk/StdTx",
+    "value": {
+        "msg": [{
+            "type": "cosmos-sdk/MsgCreateValidator",
+            "value": {
+                "description": {
+                    "moniker": "anode",
+                    "identity": "B408D693B9E27CB2",
+                    "website": "https://medium.com/@virtualxgrape",
+                    "security_contact": "https://twitter.com/alekh_w",
+                    "details": "Nodes instead of parties. Cosmos fan ⚛"
+                },
+                "commission": {
+                    "rate": "0.070000000000000000",
+                    "max_rate": "1.000000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "mantle1f7rkhyle3hdzpfra3pdk0w5r2alf6yjk0kpakx",
+                "validator_address": "mantlevaloper1f7rkhyle3hdzpfra3pdk0w5r2alf6yjk0f9fdn",
+                "pubkey": "mantlevalconspub1zcjduepqvtlesrugcwwak5g2442ua4lkvhrpl4n0nxqf37amqvtz5s406g3shlyp3s",
+                "value": {
+                    "denom": "umantle",
+                    "amount": "1000000000"
+                }
+            }
+        }],
+        "fee": {
+            "amount": [],
+            "gas": "200000"
+        },
+        "signatures": [{
+            "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AjaDf4BXV0pukHF3qiOCb8fo2cx+/2OK+3mU7uwPv0DP"
+            },
+            "signature": "J6k/7ZT4KBnMW0OHrpSbqxfmCkGSDwamec5JtF4dnsQgRio1P8Ec8I1WZypc+3B+WYJCh/mapJBX7I4d550ksg=="
+        }],
+        "memo": "bc671c79e84b5aa91a13319b2ce26ff16b333635@185.252.233.45:26656"
+    }
+}
