@@ -1,0 +1,46 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "audit",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "commission": {
+            "rate": "1.000000000000000000",
+            "max_rate": "1.000000000000000000",
+            "max_change_rate": "1.000000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "mantle1xm6zynarkq5gpdfn7k0ypsz4hyjqqfknpt34yu",
+          "validator_address": "mantlevaloper1xm6zynarkq5gpdfn7k0ypsz4hyjqqfknp54plf",
+          "pubkey": "mantlevalconspub1zcjduepq9dewvhfxu0lfx3nrf70e9delg8qv77sdh55h4c0mztz6dyfvjsqszlmmzk",
+          "value": {
+            "denom": "umantle",
+            "amount": "1000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A+2pOE8P1mRf/pZPBe7Y8+8fcbzED5uKlON/WoHnr/aA"
+        },
+        "signature": "nLOtJ3RvTDfPHOOQ53RKoVmp+FDQksOqUJMFCoMxwh8qPa8S9z3CifjrluyaRwp6i5/yDNK8h1NztDSGcLixZQ=="
+      }
+    ],
+    "memo": "c1f3ddb331ca43e0f93349b08d510c5d80ed9a5a@10.10.0.128:26656"
+  }
+}
