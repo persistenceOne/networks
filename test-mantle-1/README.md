@@ -98,7 +98,7 @@ assetNode start
 * [Install](#installation-steps) assetMantle application
 * Initialize node
 ```shell
-assetMantle init {{NODE_NAME}} --chain-id test-mantle-1
+assetNode init {{NODE_NAME}} --chain-id test-mantle-1
 ```
 * Replace the contents of your `${HOME}/.assetNode/config/genesis.json` with that of test-core-1/final_genesis.json from the `master` branch of [repository](https://github.com/persistenceOne/genesisTransactions).
 * Verify checksum `sha265sum genesis.json` matches ########`673d30abd133a13210bf271d8a52aabc3f1b12c0864f543f4313f7f9589bdb53`
