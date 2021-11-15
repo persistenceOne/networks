@@ -1,0 +1,722 @@
+{
+  "genesis_time": "2021-11-15T12:25:57.306388Z",
+  "chain_id": "test-mantle-1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "200000",
+      "max_gas": "40000000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "1000000",
+      "max_age_duration": "172800000000000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "upgrade": {},
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "audit",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "1.000000000000000000",
+                    "max_rate": "1.000000000000000000",
+                    "max_change_rate": "1.000000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "mantle1xm6zynarkq5gpdfn7k0ypsz4hyjqqfknpt34yu",
+                  "validator_address": "mantlevaloper1xm6zynarkq5gpdfn7k0ypsz4hyjqqfknp54plf",
+                  "pubkey": "mantlevalconspub1zcjduepq9dewvhfxu0lfx3nrf70e9delg8qv77sdh55h4c0mztz6dyfvjsqszlmmzk",
+                  "value": {
+                    "denom": "umantle",
+                    "amount": "1000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A+2pOE8P1mRf/pZPBe7Y8+8fcbzED5uKlON/WoHnr/aA"
+                },
+                "signature": "nLOtJ3RvTDfPHOOQ53RKoVmp+FDQksOqUJMFCoMxwh8qPa8S9z3CifjrluyaRwp6i5/yDNK8h1NztDSGcLixZQ=="
+              }
+            ],
+            "memo": "c1f3ddb331ca43e0f93349b08d510c5d80ed9a5a@10.10.0.128:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "SerGo",
+                    "identity": "",
+                    "website": "https://sergo.top",
+                    "security_contact": "contact@sergo.top",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.070000000000000000",
+                    "max_rate": "1.000000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "mantle10lrpn56zpe7ywf04xzdlq28xs7rcfxxn4vgxpj",
+                  "validator_address": "mantlevaloper10lrpn56zpe7ywf04xzdlq28xs7rcfxxn4nvj68",
+                  "pubkey": "mantlevalconspub1zcjduepq20v8zfj0p7m3cz0hy9cspnn6k0pzx32gjy3q8slt7yu566pkcf3qxwxcpl",
+                  "value": {
+                    "denom": "umantle",
+                    "amount": "1000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AhMjEv6zDTaT+bkTHuj9aQ2CcPgJ4BLaaW3DXcZVhB6A"
+                },
+                "signature": "L9FkWxjvymVjyyEr6OKFMwH18vTrnJpBv6C+qVsmHoILpBWGbBAedhvYJet33RY3voCwyL5yi8ZI2sYtUNY59A=="
+              }
+            ],
+            "memo": "SerGo@135.181.139.153:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "abhinav",
+                    "identity": "",
+                    "website": "https://github.com/avkr003",
+                    "security_contact": "abhinav@persistence.one",
+                    "details": "test validator"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "1.000000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "mantle10dv96us927fghfqrnm2pmrcvkhupx66lj8gm6t",
+                  "validator_address": "mantlevaloper10dv96us927fghfqrnm2pmrcvkhupx66ljcv0p7",
+                  "pubkey": "mantlevalconspub1zcjduepqhsl3c5fx02dwx4ghrvs5gf5nr6vrmytcgvgvh2lvqvmvtg6vumhs55lgt4",
+                  "value": {
+                    "denom": "umantle",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "Aqbrta/gYnOY9yjbGb1iEtcQMIhOmbPrXrDd2nJAKhLC"
+                },
+                "signature": "b1WAWVAZl4+SfUALER4bDqcVReK7Llq/zRnuJe21+oYzTcJ9HpFFExYJOgTAx0lZ8+7DWkDQFcK1XczIgzGE1Q=="
+              }
+            ],
+            "memo": "55e140356200cecaa8f47b24cbbef6147caadda2@192.168.61.24:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "deepanshutr",
+                    "identity": "",
+                    "website": "XXXXXXXX",
+                    "security_contact": "XXXXXXXX",
+                    "details": "XXXXXXXX"
+                  },
+                  "commission": {
+                    "rate": "0.070000000000000000",
+                    "max_rate": "1.000000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "mantle1s75vxcmw4d5rf824ceyrmw90x53uf3x702ffay",
+                  "validator_address": "mantlevaloper1s75vxcmw4d5rf824ceyrmw90x53uf3x704dax3",
+                  "pubkey": "mantlevalconspub1zcjduepquu4uw5ghr655kpk9fk3rs8ztxpw98g0p26p0246d797awrf49q8qzh7flg",
+                  "value": {
+                    "denom": "umantle",
+                    "amount": "1000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A8k3jZTaffrdE3J7LT6vxMxP+36UzGsjRp2gKE9ooN+a"
+                },
+                "signature": "8GiVyBsypEqaxjX0GYHba65aojbr9A2n3j87B5t1dNtcLh6jR8BU0JVBZ+cGKT+ypSo2KShMRX5a87OP9k6mNg=="
+              }
+            ],
+            "memo": "9641267efa0a93409d15ff3ccd15e8da86a5f60b@10.10.0.85:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "jetlife",
+                    "identity": "325A1EA86C1E3B12",
+                    "website": "jetlifestaking.org",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.070000000000000000",
+                    "max_rate": "1.000000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "mantle1x7lpf8y76zguejxayxfyflrj934ujtgc22wyl7",
+                  "validator_address": "mantlevaloper1x7lpf8y76zguejxayxfyflrj934ujtgc242syt",
+                  "pubkey": "mantlevalconspub1zcjduepqvrh00e4jgmwv8309wltufzpdxupwe0zacjuzwrgzh0pvnhj8050q7g9uqj",
+                  "value": {
+                    "denom": "umantle",
+                    "amount": "1000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "Ai+tLWxb7VNIuBmvM/tg5x6E8L9e8IshTEev2sOsPMdq"
+                },
+                "signature": "HGG7txFUnhvJskcJF2owLywpwfq6UJRoSk9QOkLncttXDWUuObVFREwcsZL1C+Cl05FRI3JvwKlWGFGq7eKRWw=="
+              }
+            ],
+            "memo": "a9668820073e0d272431e2c30ca9334d3ed22141@192.168.1.77:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "melrose",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "1.000000000000000000",
+                    "max_rate": "1.000000000000000000",
+                    "max_change_rate": "1.000000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "mantle1vz5fgqejw54f09u4njyqsw7lcgux90dtx6mtqe",
+                  "validator_address": "mantlevaloper1vz5fgqejw54f09u4njyqsw7lcgux90dtx9llmv",
+                  "pubkey": "mantlevalconspub1zcjduepqexrrrhzr2ju7scdkq30hwql5hs3r6u4mafamlaptgukeclvnsjxsxtuney",
+                  "value": {
+                    "denom": "umantle",
+                    "amount": "1000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AkAuubqYQvRkBH63txSVAls8gHOOKMqwIqKXHiYC5r0Q"
+                },
+                "signature": "adD2eAs7M2mi4dfyVgxZpWC6edHQlOYHS1KgmNGrzc0FpfQ34lXbTUgaUFO4crTY2tUAHmwZkUx1ADzIjcjmBg=="
+              }
+            ],
+            "memo": "8cf1d7933b60de02b87e2c13ee90cc78ee770e49@10.0.33.246:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "outerspace_staking",
+                    "identity": "",
+                    "website": "https://www.cryptostake.online/",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.500000000000000000",
+                    "max_rate": "1.000000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "mantle1rg4y5kd4lz65fszv55dvpgu83vweq6ku9nqcgg",
+                  "validator_address": "mantlevaloper1rg4y5kd4lz65fszv55dvpgu83vweq6ku9vyvna",
+                  "pubkey": "mantlevalconspub1zcjduepq9yzjdfwsg8yg03gc5l83s2706xrz4ad0w7mxqjqr8yhdwmce2uvq40swru",
+                  "value": {
+                    "denom": "umantle",
+                    "amount": "1000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AnIoBeReCWhotUM8qdtQGVltpf6Rl9HTjlEWQDQofPGD"
+                },
+                "signature": "vEpBsJp56JBSZhmlk3FGnTACtWMnllvAjJ1G6b7VOa1Z5VbWvO/rx2BuPgRJQsQIZGFDeLkgosJLiO6/Iw5VIg=="
+              }
+            ],
+            "memo": "0c34daf66b3670322d00e0f4593ca07736377ced@142.4.216.69:26656"
+          }
+        }
+      ]
+    },
+    "classifications": {
+      "mappableList": [],
+      "parameterList": [
+        {
+          "type": "xprt/parameter",
+          "value": {
+            "id": {
+              "type": "xprt/id",
+              "value": {
+                "idString": "dummy"
+              }
+            },
+            "data": {
+              "type": "xprt/decData",
+              "value": {
+                "value": "0.000000000000000001"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.050000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.000100000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "evidence": {
+      "params": {
+        "max_evidence_age": "120000000000"
+      },
+      "evidence": []
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.350000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "umantle",
+        "inflation_rate_change": "0.200000000000000000",
+        "inflation_max": "0.450000000000000000",
+        "inflation_min": "0.250000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "512",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "mantle10dv96us927fghfqrnm2pmrcvkhupx66lj8gm6t",
+            "coins": [
+              {
+                "denom": "umantle",
+                "amount": "25000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "mantle1s75vxcmw4d5rf824ceyrmw90x53uf3x702ffay",
+            "coins": [
+              {
+                "denom": "umantle",
+                "amount": "25000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "mantle1xm6zynarkq5gpdfn7k0ypsz4hyjqqfknpt34yu",
+            "coins": [
+              {
+                "denom": "umantle",
+                "amount": "25000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "mantle1x7lpf8y76zguejxayxfyflrj934ujtgc22wyl7",
+            "coins": [
+              {
+                "denom": "umantle",
+                "amount": "100000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "mantle1rg4y5kd4lz65fszv55dvpgu83vweq6ku9nqcgg",
+            "coins": [
+              {
+                "denom": "umantle",
+                "amount": "100000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "mantle10lrpn56zpe7ywf04xzdlq28xs7rcfxxn4vgxpj",
+            "coins": [
+              {
+                "denom": "umantle",
+                "amount": "100000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "cosmos-sdk/Account",
+          "value": {
+            "address": "mantle1vz5fgqejw54f09u4njyqsw7lcgux90dtx6mtqe",
+            "coins": [
+              {
+                "denom": "umantle",
+                "amount": "24700000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        }
+      ]
+    },
+    "metas": {
+      "mappableList": [],
+      "parameterList": [
+        {
+          "type": "xprt/parameter",
+          "value": {
+            "id": {
+              "type": "xprt/id",
+              "value": {
+                "idString": "dummy"
+              }
+            },
+            "data": {
+              "type": "xprt/decData",
+              "value": {
+                "value": "0.000000000000000001"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "assets": {
+      "mappableList": [],
+      "parameterList": [
+        {
+          "type": "xprt/parameter",
+          "value": {
+            "id": {
+              "type": "xprt/id",
+              "value": {
+                "idString": "dummy"
+              }
+            },
+            "data": {
+              "type": "xprt/decData",
+              "value": {
+                "value": "0.000000000000000001"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "umantle",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "1209600000000000"
+      },
+      "voting_params": {
+        "voting_period": "1209600000000000"
+      },
+      "tally_params": {
+        "quorum": "0.400000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "umantle",
+        "amount": "1000"
+      }
+    },
+    "orders": {
+      "mappableList": [],
+      "parameterList": [
+        {
+          "type": "xprt/parameter",
+          "value": {
+            "id": {
+              "type": "xprt/id",
+              "value": {
+                "idString": "dummy"
+              }
+            },
+            "data": {
+              "type": "xprt/decData",
+              "value": {
+                "value": "0.000000000000000001"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "umantle"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "supply": {
+      "supply": []
+    },
+    "splits": {
+      "mappableList": [],
+      "parameterList": [
+        {
+          "type": "xprt/parameter",
+          "value": {
+            "id": {
+              "type": "xprt/id",
+              "value": {
+                "idString": "dummy"
+              }
+            },
+            "data": {
+              "type": "xprt/decData",
+              "value": {
+                "value": "0.000000000000000001"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "params": null,
+    "bank": {
+      "send_enabled": true
+    },
+    "identities": {
+      "mappableList": [],
+      "parameterList": [
+        {
+          "type": "xprt/parameter",
+          "value": {
+            "id": {
+              "type": "xprt/id",
+              "value": {
+                "idString": "dummy"
+              }
+            },
+            "data": {
+              "type": "xprt/decData",
+              "value": {
+                "value": "0.000000000000000001"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "maintainers": {
+      "mappableList": [],
+      "parameterList": [
+        {
+          "type": "xprt/parameter",
+          "value": {
+            "id": {
+              "type": "xprt/id",
+              "value": {
+                "idString": "dummy"
+              }
+            },
+            "data": {
+              "type": "xprt/decData",
+              "value": {
+                "value": "0.000000000000000001"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

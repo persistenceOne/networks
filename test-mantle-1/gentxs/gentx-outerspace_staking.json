@@ -1,1 +1,46 @@
-{"type":"cosmos-sdk/StdTx","value":{"msg":[{"type":"cosmos-sdk/MsgCreateValidator","value":{"description":{"moniker":"outerspace_staking","identity":"","website":"https://www.cryptostake.online/","security_contact":"","details":""},"commission":{"rate":"0.500000000000000000","max_rate":"1.000000000000000000","max_change_rate":"0.010000000000000000"},"min_self_delegation":"1","delegator_address":"mantle1rg4y5kd4lz65fszv55dvpgu83vweq6ku9nqcgg","validator_address":"mantlevaloper1rg4y5kd4lz65fszv55dvpgu83vweq6ku9vyvna","pubkey":"mantlevalconspub1zcjduepq9yzjdfwsg8yg03gc5l83s2706xrz4ad0w7mxqjqr8yhdwmce2uvq40swru","value":{"denom":"umantle","amount":"1000000000"}}}],"fee":{"amount":[],"gas":"200000"},"signatures":[{"pub_key":{"type":"tendermint/PubKeySecp256k1","value":"AnIoBeReCWhotUM8qdtQGVltpf6Rl9HTjlEWQDQofPGD"},"signature":"vEpBsJp56JBSZhmlk3FGnTACtWMnllvAjJ1G6b7VOa1Z5VbWvO/rx2BuPgRJQsQIZGFDeLkgosJLiO6/Iw5VIg=="}],"memo":"0c34daf66b3670322d00e0f4593ca07736377ced@142.4.216.69:26656"}}
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "outerspace_staking",
+            "identity": "",
+            "website": "https://www.cryptostake.online/",
+            "security_contact": "",
+            "details": ""
+          },
+          "commission": {
+            "rate": "0.500000000000000000",
+            "max_rate": "1.000000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "mantle1rg4y5kd4lz65fszv55dvpgu83vweq6ku9nqcgg",
+          "validator_address": "mantlevaloper1rg4y5kd4lz65fszv55dvpgu83vweq6ku9vyvna",
+          "pubkey": "mantlevalconspub1zcjduepq9yzjdfwsg8yg03gc5l83s2706xrz4ad0w7mxqjqr8yhdwmce2uvq40swru",
+          "value": {
+            "denom": "umantle",
+            "amount": "1000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "AnIoBeReCWhotUM8qdtQGVltpf6Rl9HTjlEWQDQofPGD"
+        },
+        "signature": "vEpBsJp56JBSZhmlk3FGnTACtWMnllvAjJ1G6b7VOa1Z5VbWvO/rx2BuPgRJQsQIZGFDeLkgosJLiO6/Iw5VIg=="
+      }
+    ],
+    "memo": "0c34daf66b3670322d00e0f4593ca07736377ced@142.4.216.69:26656"
+  }
+}
