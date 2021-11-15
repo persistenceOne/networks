@@ -67,10 +67,10 @@ or
 * [Install](#installation-steps) assetMantle application
 * Initialize node
 ```shell
-assetNode init {{NODE_NAME}} --chain-id test-mantle-1
+assetNode init {{VALIDATOR_NAME}} --chain-id test-mantle-1
 assetNode add-genesis-account {{KEY_NAME}} 1000000000umantle
 assetNode gentx --amount 1000000000umantle \
---name="{{VALIDATOR_NAME}}" \
+--name="{{KEY_NAME}}" \
 --commission-max-change-rate=0.01 \
 --commission-max-rate=1.0 \
 --commission-rate=0.07 \
