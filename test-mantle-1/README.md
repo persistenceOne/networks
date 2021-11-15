@@ -117,7 +117,7 @@ assetNode tx staking create-validator \
 --from {{KEY_NAME}} \
 --amount XXXXXXXXuxprt \
 --pubkey "$(assetNode tendermint show-validator)" \
---chain-id core-1 \
+--chain-id test-mantle-1 \
 --moniker="{{VALIDATOR_NAME}}" \
 --commission-max-change-rate=0.01 \
 --commission-max-rate=1.0 \
