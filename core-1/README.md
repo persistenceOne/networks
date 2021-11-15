@@ -111,7 +111,17 @@ persistenceCore init {{NODE_NAME}} --chain-id core-1
 ```shell
 persistenceCore start
 ```
-* Acquire $XPRT tokens to self delegate to your validator node.
+* Acquire $XPRT tokens to self delegate to your validator node. Minimum 1 XPRT is require to become a validator. You must send your XPRT to the address created in the Generate Keys step previosuly.
+* Wait for the blockchain to sync. You can check the sync status using the command
+```
+curl http://localhost:26657/status sync_info "catching_up": false
+```
+Once `"catching_up"` is `false`, the sync is complete. If this is a production validator, we recommend syncing from genesis to ensure security. However, for dev purposes, you can achieve a faster sync using snapshots. The latest snapshot is available at  https://tendermint-snapshots.s3.ap-southeast-1.amazonaws.com/persistence/data.tar.lz4 .
+You will need to download this file, and unzip it in `~/.persistenceCore/data` using the command `lz4 -d data.tar.lz4 | tar -xv`. Remove the db files that are there currently.
+You can unpack this in flight with
+```
+curl -sSL https://tendermint-snapshots.s3.ap-southeast-1.amazonaws.com/persistence/data.tar.lz4 | tar -I lz4 -xf -
+```
 * Send a create-validator transaction
 ```
 persistenceCore tx staking create-validator \
