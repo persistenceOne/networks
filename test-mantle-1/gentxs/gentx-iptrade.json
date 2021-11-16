@@ -1,0 +1,46 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "iptrade",
+            "identity": "",
+            "website": "---",
+            "security_contact": "iptrade#8314",
+            "details": "Validator"
+          },
+          "commission": {
+            "rate": "0.070000000000000000",
+            "max_rate": "1.000000000000000000",
+            "max_change_rate": "0.0100000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "mantle19z57dl04zgyrzt2aygh0ljdcsxy4txa5660vwr",
+          "validator_address": "mantlevaloper19z57dl04zgyrzt2aygh0ljdcsxy4txa569tc4k",
+          "pubkey": "mantlevalconspub1zcjduepqt3zjwqc35hvc3jpyc6lfy2tlelq3cg6pfcey6wh65c3szalzzlkswvw52m",
+          "value": {
+            "denom": "umantle",
+            "amount": "1000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "Ak/acJiQliVnBmTf77u3t5U0CSNRHTDOSAc4Etdoev19"
+        },
+        "signature": "nj1tlbXZhuvqD+8+/KuHPvAXYcnfri3rjivDpxtxAFc5qZyTKmAB8pWmhhVZv1+Qrn5eRwBZERSCkBkCN8v7+w=="
+      }
+    ],
+    "memo": "2b9e9e2d23d2b3bdeef5666526908c043ce16c3f@185.209.229.161:26656"
+  }
+}
