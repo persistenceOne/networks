@@ -100,7 +100,7 @@ assetNode start
 ```shell
 assetNode init {{NODE_NAME}} --chain-id test-mantle-1
 ```
-* Replace the contents of your `${HOME}/.assetNode/config/genesis.json` with that of test-core-1/final_genesis.json from the `master` branch of [repository](https://github.com/persistenceOne/genesisTransactions).
+* Replace the contents of your `${HOME}/.assetNode/config/genesis.json` with that of test-mantle-1/final_genesis.json from the `master` branch of [repository](https://github.com/persistenceOne/genesisTransactions).
 * Verify checksum `sha265sum genesis.json` matches ########`673d30abd133a13210bf271d8a52aabc3f1b12c0864f543f4313f7f9589bdb53`
 * Inside file `${HOME}/.assetNode/config/config.toml`,
   * set `seeds` to ######`"08ab4552a74dd7e211fc79432918d35818a67189@52.69.58.231:26656,449a0f1b7dafc142cf23a1f6166bbbf035edfb10@13.232.85.66:26656,5b27a6d4cf33909c0e5b217789e7455e261941d1@15.222.29.207:26656"`.
@@ -113,7 +113,7 @@ assetNode start
 * Acquire $MANTLE tokens to self delegate to your validator node.
 * Send a create-validator transaction
 ```
-assetNode tx staking create-validator \
+assetClient tx staking create-validator \
 --from {{KEY_NAME}} \
 --amount XXXXXXXXuxprt \
 --pubkey "$(assetNode tendermint show-validator)" \
