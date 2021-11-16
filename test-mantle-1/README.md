@@ -113,19 +113,20 @@ assetNode start
 * Acquire $MANTLE tokens to self delegate to your validator node.
 * Send a create-validator transaction
 ```
-assetNode tx staking create-validator \
+assetClient tx staking create-validator \
 --from {{KEY_NAME}} \
 --amount XXXXXXXXumantle \
 --pubkey "$(assetNode tendermint show-validator)" \
 --chain-id test-mantle-1 \
 --moniker="{{VALIDATOR_NAME}}" \
+--identity="YOUR_PGPK"
 --commission-max-change-rate=0.01 \
---commission-max-rate=1.0 \
---commission-rate=0.07 \
+--commission-max-rate="1.0" \
+--commission-rate="0.07" \
 --min-self-delegation="1" \
---details="XXXXXXXX" \
+--details="YOUR_ANY_INFO" \
 --security-contact="XXXXXXXX" \
---website="XXXXXXXX"
+--website="YOUR_WEB"
 ```
 ## Version
 This chain is currently running on assetMantle [v0.1.1](https://github.com/persistenceOne/assetMantle/releases/tag/v0.1.1)
