@@ -113,7 +113,7 @@ assetNode start
 * Acquire $MANTLE tokens to self delegate to your validator node.
 * Send a create-validator transaction
 ```
-assetNode tx staking create-validator \
+assetClient tx staking create-validator \
 --from {{KEY_NAME}} \
 --amount XXXXXXXXuxprt \
 --pubkey "$(assetNode tendermint show-validator)" \
