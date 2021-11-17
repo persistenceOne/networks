@@ -1,0 +1,42 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [{
+      "type": "cosmos-sdk/MsgCreateValidator",
+      "value": {
+        "description": {
+          "moniker": "hitr_validator",
+          "identity": "",
+          "website": "https://t.me/belyaevsky",
+          "security_contact": "https://t.me/belyaevsky",
+          "details": "https://t.me/belyaevsky"
+        },
+        "commission": {
+          "rate": "0.070000000000000000",
+          "max_rate": "1.000000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "mantle1acpdxhjlpf3esu9gnyxk8a5x53k2rh46zhw26e",
+        "validator_address": "mantlevaloper1acpdxhjlpf3esu9gnyxk8a5x53k2rh46zg27pv",
+        "pubkey": "mantlevalconspub1zcjduepqv0myfp0r8pf3ztukqfwhrwuzy8gpnfln8mgwnm06h58syd822arqwwnnld",
+        "value": {
+          "denom": "umantle",
+          "amount": "1000000000"
+        }
+      }
+    }],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [{
+      "pub_key": {
+        "type": "tendermint/PubKeySecp256k1",
+        "value": "AvR0JK91exX3tgBSpXlZJhaKO3IO9Piy64HAVdldXfQf"
+      },
+      "signature": "N39zyXI3TwOhSZlGnF4mtI5zhTpxVvhO76E2enesp25LiwueLvwtwGgaRdvj00TSyVzgP3IZwkjA9JTUODawjw=="
+    }],
+    "memo": "95f4a8796dd14ba733db373dc4718df7ed7f76ba@185.246.84.32:26656"
+  }
+}
