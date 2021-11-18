@@ -115,13 +115,13 @@ assetNode start
 ```
 assetClient tx staking create-validator \
 --from {{KEY_NAME}} \
---amount XXXXXXXXuxprt \
+--amount XXXXXXXXumatle \
 --pubkey "$(assetNode tendermint show-validator)" \
---chain-id core-1 \
+--chain-id test-mantle-1 \
 --moniker="{{VALIDATOR_NAME}}" \
 --commission-max-change-rate=0.01 \
 --commission-max-rate=1.0 \
---commission-rate=0.07 \
+--commission-rate=0.1 \
 --min-self-delegation="1" \
 --details="XXXXXXXX" \
 --security-contact="XXXXXXXX" \
