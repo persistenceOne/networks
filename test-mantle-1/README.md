@@ -115,7 +115,7 @@ assetNode start
 ```
 assetClient tx staking create-validator \
 --from {{KEY_NAME}} \
---amount XXXXXXXXumatle \
+--amount XXXXXXXXumantle \
 --pubkey "$(assetNode tendermint show-validator)" \
 --chain-id test-mantle-1 \
 --moniker="{{VALIDATOR_NAME}}" \
