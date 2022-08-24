@@ -69,7 +69,7 @@ git pull
 git checkout v3.1.0
 make install
 ```
-4. Start the osmosis daemon again, watch the upgrade happen, and then continue to hit blocks
+4. Start the persistenceCore daemon again, watch the upgrade happen, and then continue to hit blocks
 
 ## Communications
 Operators are encouraged to join the [`#validators-lobby`](https://discord.gg/hwbynVYDZ7)
