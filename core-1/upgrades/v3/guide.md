@@ -75,7 +75,7 @@ cp ~/data/upgrade-info.json ~/.persistenceCore/data/
 Now cosmovisor will automatically catch the upgrade info and will continue with the v3 upgrade/
 
 ## Manual Option
-1. Wait for Osmosis to reach the upgrade height (xxx)
+1. Wait for PersistenceCore to reach the upgrade height (xxx)
 2. Look for a panic message, followed by endless peer logs. Stop the daemon
 3. Run the following commands:
 ```
