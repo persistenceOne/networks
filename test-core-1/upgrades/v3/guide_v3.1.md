@@ -60,7 +60,7 @@ cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v3.1/bin
 Now, at the upgrade height, Cosmovisor will upgrade to the v3.1 binary
 
 ## Manual Option
-1. Wait for Osmosis to reach the upgrade height
+1. Wait for PersistenceCore to reach the upgrade height
 2. Look for a panic message, followed by endless peer logs. Stop the daemon
 3. Run the following commands:
 ```
