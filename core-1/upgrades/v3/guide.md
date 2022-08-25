@@ -75,7 +75,7 @@ cp ~/data/upgrade-info.json ~/.persistenceCore/data/
 Now cosmovisor will automatically catch the upgrade info and will continue with the v3 upgrade/
 
 ## Manual Option
-1. Wait for Osmosis to reach the upgrade height (xxx)
+1. Wait for PersistenceCore to reach the upgrade height (xxx)
 2. Look for a panic message, followed by endless peer logs. Stop the daemon
 3. Run the following commands:
 ```
@@ -84,7 +84,7 @@ git pull
 git checkout v3.1.1
 make install
 ```
-4. Start the osmosis daemon again, watch the upgrade happen, and then continue to hit blocks
+4. Start the persistenceCore daemon again, watch the upgrade happen, and then continue to hit blocks
 
 ## Communications
 Operators are encouraged to join the [`#validators-lobby`](https://discord.gg/hwbynVYDZ7)
