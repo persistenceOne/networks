@@ -53,7 +53,7 @@ Now, create the required folder, make the build, and copy the daemon over to tha
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v3/bin
 cd $HOME/persistenceCore
 git pull
-git checkout v3.1.0
+git checkout v3.1.1
 make build
 cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v3/bin
 ```
@@ -81,7 +81,7 @@ Now cosmovisor will automatically catch the upgrade info and will continue with 
 ```
 cd $HOME/persistenceCore
 git pull
-git checkout v3.1.0
+git checkout v3.1.1
 make install
 ```
 4. Start the osmosis daemon again, watch the upgrade happen, and then continue to hit blocks
