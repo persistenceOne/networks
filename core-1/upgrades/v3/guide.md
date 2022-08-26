@@ -3,6 +3,7 @@
 Persistence v3 gov proposal: xxx
 Countdown: xxx
 Height: xxx
+Release: [v3](https://github.com/persistenceOne/persistenceCore/releases/tag/v3.1.1)
 
 ## Install and sestup Cosmovisor
 We highly recommend validators use cosmovisor to run their nodes. This will make low-downtime
