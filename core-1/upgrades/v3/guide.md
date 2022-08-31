@@ -1,7 +1,7 @@
 # v2 to v3
 
 Persistence v3 gov proposal: [7](https://www.mintscan.io/persistence/proposals/7) \
-Height: 7791906 \
+Height: [7791906](https://www.mintscan.io/persistence/blocks/7791906) (Countdown) \
 Release: [v3](https://github.com/persistenceOne/persistenceCore/releases/tag/v3.1.1)
 
 ## Install and setup Cosmovisor
