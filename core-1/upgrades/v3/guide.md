@@ -48,6 +48,11 @@ echo "export UNSAFE_SKIP_BACKUP=true" >> ~/.profile
 source ~/.profile
 ```
 
+Now you can start the cosmovisor for current v2.
+```
+cosmovisor start --minimum-gas-prices="0.0005uxprt" --home $HOME/.persistenceCore
+```
+
 Now, create the required folder, make the build, and copy the daemon over to that folder
 ```
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v3/bin
@@ -56,22 +61,35 @@ git pull
 git checkout v3.1.1
 make build
 cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v3/bin
+~/.persistenceCore/cosmovisor/upgrades/v3/bin version
+# Check: HEAD-d557c8f98f2440f9fe82dcf5a30b05b714dee25a
 ```
-Now, at the upgrade height, Cosmovisor will .
+Now, at the upgrade height, Cosmovisor will upgrade swap the binaries.
 
-## Check upgrade-info.json is corrected
+## Fixing v2 bug
 In v2 for persistenceCore binary, there was a bug that creates the `snapshots` dir and the `upgrade-info.json`
 file after a software upgrade proposal is accepted in `~/data` dir instead of `~/.persistenceCore/data`.
 
 Note: If one is running the persistenceCore binary is run with `--home <home-dir>` then this error won't be present.
 In that case can omit the resolution steps needed.
 
+Please follow either of the 2 ways mentioned bellow
+
+### 1. Start cosmovisor with params (recommended)
+Start the cosmovisor for the current v2 version with `--home ~/.persistenceCore` args. This will basically curcumvent the bug and the `upgrade-info.json` will be created in the correct place.
+```
+cosmovisor start --minimum-gas-prices="0.0005uxprt" --home $HOME/.persistenceCore
+```
+
+Now cosmovisor will automatically upgrade without any manual intervention.
+
+### 2. Check upgrade-info.json is corrected (manual intervention)
+
 When chain reaches the block height, the chain will pause with panic message followed by endless peer logs.
 Copy the `upgrade-info.json` to the correct location with
 ```
 cp ~/data/upgrade-info.json ~/.persistenceCore/data/
 ```
-
 Now cosmovisor will automatically catch the upgrade info and will continue with the v3 upgrade/
 
 ## Manual Option
