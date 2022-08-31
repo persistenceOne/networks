@@ -1,11 +1,10 @@
 # v2 to v3
 
-Persistence v3 gov proposal: xxx \
-Countdown: xxx \
-Height: xxx \
+Persistence v3 gov proposal: [7](https://www.mintscan.io/persistence/proposals/7) \
+Height: 7791906 \
 Release: [v3](https://github.com/persistenceOne/persistenceCore/releases/tag/v3.1.1)
 
-## Install and sestup Cosmovisor
+## Install and setup Cosmovisor
 We highly recommend validators use cosmovisor to run their nodes. This will make low-downtime
 upgrades smoother, as validators don't have to manually upgrade binaries during the upgrade,
 and instead can pre-install new binaries, and cosmovisor will automatically update them based
