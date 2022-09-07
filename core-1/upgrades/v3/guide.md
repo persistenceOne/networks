@@ -105,7 +105,7 @@ make install
 4. Start the persistenceCore daemon again, watch the upgrade happen, and then continue to hit blocks
 
 ## Communications
-Operators are encouraged to join the [`#validators-lobby`](https://discord.gg/hwbynVYDZ7)
+Operators are encouraged to join the [`#validators-discussion`](https://discord.gg/VrhzFqPh)
 channel of the Persistence Community Discord. This channel is the primary communication tool
 for operators to ask questions, report upgrade status, report technical issues, and to build
 social consensus should the need arise.
