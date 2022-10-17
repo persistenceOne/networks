@@ -24,4 +24,5 @@ persistenceCore start --iavl-disable-fastnode false
 Operators are encouraged to join the [`#validators-lobby`](https://discord.gg/hnvDDzRFrV)
 channel of the Persistence Community Discord. This channel is the primary communication tool
 for operators to ask questions, report upgrade status, report technical issues, and to build
-social consensus should the need arise.
+social consensus should the need arise. If you don't have access, please reach out to someone
+from the Persistence team directly.
