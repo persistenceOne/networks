@@ -15,6 +15,11 @@ cp build/persistenceCore <location for current persistenceCore binaries>
 ## Run
 After building the binaries for v3.2.0, replace the current binaries and restart the validator node.
 
+Run commands
+```
+persistenceCore start --iavl-disable-fastnode false
+```
+
 ## Communications
 Operators are encouraged to join the [`#validators-lobby`](https://discord.gg/hnvDDzRFrV)
 channel of the Persistence Community Discord. This channel is the primary communication tool
