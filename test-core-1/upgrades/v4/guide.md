@@ -1,8 +1,8 @@
 # v3 to v4
 
-Persistence v4 gov proposal: [77](https://www.mintscan.io/persistence/proposals/77) \
-Height: [8475819](https://testnet.mintscan.io/persistence-testnet/blocks/8475819) (Countdown) \
-Release: [v4](https://github.com/persistenceOne/persistenceCore/releases/tag/v4.0.0-rc0)
+Persistence v4 gov proposal: [79](https://www.mintscan.io/persistence/proposals/79) \
+Height: [8493543](https://testnet.mintscan.io/persistence-testnet/blocks/8493543) (Countdown) \
+Release: [v4](https://github.com/persistenceOne/persistenceCore/releases/tag/v4.0.0-rc1)
 
 ## Install and setup Cosmovisor
 We highly recommend validators use cosmovisor to run their nodes. This will make low-downtime
@@ -50,7 +50,7 @@ source ~/.profile
 
 Now you can start the cosmovisor for current v3.
 ```
-cosmovisor start --minimum-gas-prices="0.0005uxprt" --home $HOME/.persistenceCore
+cosmovisor start --minimum-gas-prices="0.0005uxprt" --home $HOME/.persistenceCore --iavl-disable-fastnode false
 ```
 
 Now, create the required upgrade folder, make the build, and copy the daemon over to that folder
@@ -62,11 +62,11 @@ git checkout v4.0.0-rc0
 make build
 cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v4/bin
 ~/.persistenceCore/cosmovisor/upgrades/v4/bin version --long
-# Check: v4.0.0-rc0
+# Check: v4.0.0-rc1
 # name: persistenceCore
 # server_name: persistenceCore
-# version: v4.0.0-rc0
-# commit: 427dbcf0647c79e569120a47d30315ebf4de580b
+# version: v4.0.0-rc1
+# commit: 5013279455d60e6581101ef0b743f13b5081122d
 # build_tags: netgo,ledger
 # go: go version go1.18.4 linux/amd64
 ```
@@ -79,7 +79,7 @@ Now, at the upgrade height, Cosmovisor will upgrade swap the binaries.
 ```
 cd $HOME/persistenceCore
 git pull
-git checkout v4.0.0-rc0
+git checkout v4.0.0-rc1
 make install
 ```
 4. Start the persistenceCore daemon again, watch the upgrade happen, and then continue to hit blocks
