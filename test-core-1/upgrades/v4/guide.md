@@ -58,7 +58,7 @@ Now, create the required upgrade folder, make the build, and copy the daemon ove
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v4/bin
 cd $HOME/persistenceCore
 git pull
-git checkout v4.0.0-rc`
+git checkout v4.0.0-rc1
 make build
 cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v4/bin
 ~/.persistenceCore/cosmovisor/upgrades/v4/bin version --long
