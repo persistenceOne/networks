@@ -27,7 +27,7 @@ mkdir -p ~/.persistenceCore/cosmovisor/genesis/bin
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades
 ```
 
-Copy the current persistenceCore binary into the cosmovisor/genesis folder and the v4 folder.
+Copy the current persistenceCore binary into the cosmovisor/genesis folder and the v3 folder.
 ```
 cp $GOPATH/bin/persistenceCore ~/.persistenceCore/cosmovisor/genesis/bin
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v3/bin
@@ -61,7 +61,7 @@ git pull
 git checkout v4.0.0-rc1
 make build
 cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v4/bin
-~/.persistenceCore/cosmovisor/upgrades/v4/bin version --long
+~/.persistenceCore/cosmovisor/upgrades/v4/bin/persistenceCore version --long
 # Check: v4.0.0-rc1
 # name: persistenceCore
 # server_name: persistenceCore
