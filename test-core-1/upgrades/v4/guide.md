@@ -33,6 +33,10 @@ cp $GOPATH/bin/persistenceCore ~/.persistenceCore/cosmovisor/genesis/bin
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v3/bin
 cp $GOPATH/bin/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v3/bin
 ```
+Copy the wasvm library to respective libarary path(`/usr/lib/` or `/usr/lib64/` depending on distro) if you are using non-static binary
+```
+cp $GOPATH/pkg/mod/github.com/!cosm!wasm/wasmvm@v1.1.1/internal/api/libwasmvm.x86_64.so /usr/lib/
+```
 
 Cosmovisor is now ready to be started. We will now set up Cosmovisor for the upgrade
 
