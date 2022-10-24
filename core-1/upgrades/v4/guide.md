@@ -66,7 +66,7 @@ cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v4/bin
 # name: persistenceCore
 # server_name: persistenceCore
 # version: v4.0.0
-# commit: bd559a06d44f7f8d8abf7cfe4069323e4ecb5853
+# commit: 3b20fa8292cb8018ab2d277a67131679e7635901
 # build_tags: netgo,ledger
 # go: go version go1.18.4 linux/amd64
 ```
