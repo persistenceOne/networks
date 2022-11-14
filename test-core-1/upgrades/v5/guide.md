@@ -54,7 +54,9 @@ cosmovisor start --minimum-gas-prices="0.0005uxprt" --home $HOME/.persistenceCor
 ```
 
 Now, create the required upgrade folder, make the build, and copy the daemon over to that folder
+
 **NOTE: Please use `go 1.19.3+` version**
+
 ```
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v5/bin
 cd $HOME/persistenceCore
