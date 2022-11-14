@@ -1,7 +1,7 @@
 # v4 to v5
 
-Persistence v5 gov proposal: [102](https://testnet.mintscan.io/persistence-testnet/proposals/102) \
-Height: [8878000](https://testnet.mintscan.io/persistence-testnet/blocks/8878000) (Countdown) \
+Persistence v5 gov proposal: [104](https://testnet.mintscan.io/persistence-testnet/proposals/104) \
+Height: [8878500](https://testnet.mintscan.io/persistence-testnet/blocks/8878500) (Countdown) \
 Release: [v5](https://github.com/persistenceOne/persistenceCore/releases/tag/v5.0.0)
 
 ## Install and setup Cosmovisor
