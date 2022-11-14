@@ -9,8 +9,7 @@ the chain for more precise time estimates.
 This upgrade adds the following features:
 
 ### pstake-native v1.2.0
-* Ablity to reopen ibc channels for ICA/ICQ on channel close
-* Since ICA channels are ordered, they close on error, txn added so anyone can open the channel if closed
+* Ablity to reopen IBC channels for ICA/ICQ on channel close as a txn
 
 ### Fail previous claims: Upgrade Handler
 * Upgrade handler code to fix the state of mainnet due to ICA channel close
@@ -19,7 +18,7 @@ This upgrade adds the following features:
 * Upgrade cosmos-sdk to v0.45.10
 * Upgrade IBC-go to v3.4.0
 * Upgrade pstake-native v1.2.0
-* Upgrade tindermint to v0.34.22
+* Upgrade tendermint to v0.34.22
 
 [Full Change Log](https://github.com/persistenceOne/persistenceCore/compare/v4.0.0...v5.0.0)
 
@@ -30,6 +29,8 @@ As always, we recommend validators utilize 64GB of RAM. Since state migration is
 If using cosmovisor, manually build & copy the persistenceCore binary to /cosmovisor/upgrades/v5/bin/.
 
 If not using cosmovisor, wait for your node to halt at the upgrade height, then install and run the v5.0.0 binary.
+
+Note: Please use go version `v1.19.3+` as part of v5 upgrade
 
 
 ## Details of Upgrade Time
