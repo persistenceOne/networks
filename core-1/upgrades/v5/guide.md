@@ -1,7 +1,7 @@
 # v4 to v5
 
 Persistence v5 gov proposal: [9](https://mintscan.io/persistence/proposals/9) \
-Height: [xxx](https://mintscan.io/persistence/blocks/xxx) (Countdown) \
+Height: [8910100](https://mintscan.io/persistence/blocks/8910100) (Countdown) \
 Release: [v5](https://github.com/persistenceOne/persistenceCore/releases/tag/v5.0.0)
 
 ## Install and setup Cosmovisor
@@ -69,7 +69,7 @@ cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v5/bin
 # name: persistenceCore
 # server_name: persistenceCore
 # version: v5.0.0
-# commit: e36cab5394c56a2d6d781c9c31d143149c7449ca
+# commit: de671f5927b4d0b87e8db5940a99e03c7e512b58
 # build_tags: netgo,ledger
 # go: go version go1.19.3 linux/amd64
 ```
