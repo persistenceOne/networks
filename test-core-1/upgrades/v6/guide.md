@@ -1,7 +1,7 @@
-# v6 to v6
+# v5 to v6
 
 Persistence v6 gov proposal: [123](https://testnet.ping.pub/test-core-1/gov/123) \
-Height: [9429856](hhttps://testnet.ping.pub/test-core-1/gov/123) (Countdown) \
+Height: [9429856](https://testnet.ping.pub/test-core-1/gov/123) (Countdown) \
 Release: [v6](https://github.com/persistenceOne/persistenceCore/releases/tag/v6.0.0-rc3)
 
 ## Install and setup Cosmovisor
