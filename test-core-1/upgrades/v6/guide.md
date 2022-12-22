@@ -4,6 +4,8 @@ Persistence v6 gov proposal: [123](https://testnet.ping.pub/test-core-1/gov/123)
 Height: [9429856](https://testnet.ping.pub/test-core-1/gov/123) (Countdown) \
 Release: [v6](https://github.com/persistenceOne/persistenceCore/releases/tag/v6.0.0-rc3)
 
+**NOTE: Please use `go 1.19.3+` version**
+
 ## Install and setup Cosmovisor
 We highly recommend validators use cosmovisor to run their nodes. This will make low-downtime
 upgrades smoother, as validators don't have to manually upgrade binaries during the upgrade,
@@ -54,8 +56,6 @@ cosmovisor start --minimum-gas-prices="0.0005uxprt" --home $HOME/.persistenceCor
 ```
 
 Now, create the required upgrade folder, make the build, and copy the daemon over to that folder
-
-**NOTE: Please use `go 1.19.3+` version**
 
 ```
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v6/bin
