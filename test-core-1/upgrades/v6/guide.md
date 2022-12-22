@@ -1,7 +1,7 @@
-# v4 to v5
+# v6 to v6
 
-Persistence v6 gov proposal: [104](https://testnet.mintscan.io/persistence-testnet/proposals/104) \
-Height: [9320861](https://testnet.mintscan.io/persistence-testnet/blocks/9320861) (Countdown) \
+Persistence v6 gov proposal: [123](https://testnet.ping.pub/test-core-1/gov/123) \
+Height: [9429856](hhttps://testnet.ping.pub/test-core-1/gov/123) (Countdown) \
 Release: [v6](https://github.com/persistenceOne/persistenceCore/releases/tag/v6.0.0-rc3)
 
 ## Install and setup Cosmovisor
@@ -27,11 +27,11 @@ mkdir -p ~/.persistenceCore/cosmovisor/genesis/bin
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades
 ```
 
-Copy the current v4 persistenceCore binary into the cosmovisor/genesis folder and the v4 folder.
+Copy the current v5 persistenceCore binary into the cosmovisor/genesis folder and the v5 folder.
 ```
 cp $GOPATH/bin/persistenceCore ~/.persistenceCore/cosmovisor/genesis/bin
-mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v4/bin
-cp $GOPATH/bin/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v4/bin
+mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v5/bin
+cp $GOPATH/bin/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v5/bin
 ```
 
 Cosmovisor is now ready to be started. We will now set up Cosmovisor for the upgrade
@@ -48,7 +48,7 @@ echo "export UNSAFE_SKIP_BACKUP=true" >> ~/.profile
 source ~/.profile
 ```
 
-Now you can start the cosmovisor for current v4.
+Now you can start the cosmovisor for current v6.
 ```
 cosmovisor start --minimum-gas-prices="0.0005uxprt" --home $HOME/.persistenceCore
 ```
@@ -58,20 +58,20 @@ Now, create the required upgrade folder, make the build, and copy the daemon ove
 **NOTE: Please use `go 1.19.3+` version**
 
 ```
-mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v5/bin
+mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v6/bin
 cd $HOME/persistenceCore
 git pull
-git checkout v5.0.0
+git checkout v6.0.0-rc3
 make build
-cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v5/bin
-~/.persistenceCore/cosmovisor/upgrades/v5/bin/persistenceCore version --long
-# Check: v5.0.0
+cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v6/bin
+~/.persistenceCore/cosmovisor/upgrades/v6/bin/persistenceCore version --long
+# Check: v6.0.0-rc3
 # name: persistenceCore
 # server_name: persistenceCore
-# version: v5.0.0
-# commit: e36cab5394c56a2d6d781c9c31d143149c7449ca
+# version: v6.0.0-rc3
+# commit: dc390a81a9b59e18606187d4562ceb7d29876326
 # build_tags: netgo,ledger
-# go: go version go1.19.3 linux/amd64
+# go: go version go1.19.4 linux/amd64
 ```
 Now, at the upgrade height, Cosmovisor will upgrade swap the binaries.
 
@@ -82,7 +82,7 @@ Now, at the upgrade height, Cosmovisor will upgrade swap the binaries.
 ```
 cd $HOME/persistenceCore
 git pull
-git checkout v5.0.0
+git checkout v6.0.0-rc3
 make build
 cp build/persistenceCore <destination-binary>
 ```
