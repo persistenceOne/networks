@@ -2,7 +2,7 @@
 
 Persistence v6 gov proposal: [123](https://testnet.ping.pub/test-core-1/gov/123) \
 Height: [9429856](https://testnet.ping.pub/test-core-1/gov/123) (Countdown) \
-Release: [v6](https://github.com/persistenceOne/persistenceCore/releases/tag/v6.0.0-rc3)
+Release: [v6](https://github.com/persistenceOne/persistenceCore/releases/tag/v6.0.0-rc4)
 
 **NOTE: Please use `go 1.19.3+` version**
 
@@ -61,15 +61,15 @@ Now, create the required upgrade folder, make the build, and copy the daemon ove
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v6/bin
 cd $HOME/persistenceCore
 git pull
-git checkout v6.0.0-rc3
+git checkout v6.0.0-rc4
 make build
 cp build/persistenceCore ~/.persistenceCore/cosmovisor/upgrades/v6/bin
 ~/.persistenceCore/cosmovisor/upgrades/v6/bin/persistenceCore version --long
-# Check: v6.0.0-rc3
+# Check: v6.0.0-rc4
 # name: persistenceCore
 # server_name: persistenceCore
-# version: v6.0.0-rc3
-# commit: dc390a81a9b59e18606187d4562ceb7d29876326
+# version: v6.0.0-rc4
+# commit: 883a5001df073764a138e19565aef31e55f379be
 # build_tags: netgo,ledger
 # go: go version go1.19.4 linux/amd64
 ```
@@ -82,7 +82,7 @@ Now, at the upgrade height, Cosmovisor will upgrade swap the binaries.
 ```
 cd $HOME/persistenceCore
 git pull
-git checkout v6.0.0-rc3
+git checkout v6.0.0-rc4
 make build
 cp build/persistenceCore <destination-binary>
 ```
