@@ -2,7 +2,7 @@
 
 Persistence v6 gov proposal: [123](https://testnet.ping.pub/test-core-1/gov/123) \
 Height: [9429856](https://testnet.ping.pub/test-core-1/gov/123) (Countdown) \
-Release: [v6](https://github.com/persistenceOne/persistenceCore/releases/tag/v6.0.0-rc4)
+Release: [v6-rc4](https://github.com/persistenceOne/persistenceCore/releases/tag/v6.0.0-rc4)
 
 **NOTE: Please use `go 1.19.3+` version**
 
