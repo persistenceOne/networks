@@ -29,7 +29,7 @@ mkdir -p ~/.persistenceCore/cosmovisor/genesis/bin
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades
 ```
 
-Copy the current v5 persistenceCore binary into the cosmovisor/genesis folder and the v5 folder.
+Copy the current v6 persistenceCore binary into the cosmovisor/genesis folder and the v6 folder.
 ```
 cp $GOPATH/bin/persistenceCore ~/.persistenceCore/cosmovisor/genesis/bin
 mkdir -p ~/.persistenceCore/cosmovisor/upgrades/v6/bin
