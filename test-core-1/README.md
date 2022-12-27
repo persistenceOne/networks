@@ -21,7 +21,7 @@
     * Linux(x86_64)
 
 ## Installation Steps
->Prerequisite: go1.15+ required. [ref](https://golang.org/doc/install)
+>Prerequisite: go1.19.3+ required. [ref](https://golang.org/doc/install)
 
 >Prerequisite: git. [ref](https://github.com/git/git)
 
