@@ -6,6 +6,13 @@ Release: [v7.0.0-rc0](https://github.com/persistenceOne/persistenceCore/releases
 
 **NOTE: Please use `go 1.19.3+` version**
 
+## What changed
+
+- Upgraded `wasmd` from `v0.29.2` to [v0.30.0](https://github.com/CosmWasm/wasmd/blob/v0.30.0/CHANGELOG.md)
+- Upgraded `ibc-go` from `v3.4.0` to [v4.3.0](https://github.com/cosmos/ibc-go/releases/tag/v4.3.0)  
+    ICS29 - Fee Middleware was introduced in `ibc-go@v4`.  
+    But we've not integrated this in our chain for now.
+
 ## How to upgrade
 
 - [Upgrade using cosmovisor](https://docs.persistence.one/build/nodes-and-endpoints/join-testnet#cosmovisor)
