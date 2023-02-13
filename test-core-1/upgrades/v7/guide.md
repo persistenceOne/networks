@@ -8,12 +8,13 @@ Release: [v7.0.0-rc0](https://github.com/persistenceOne/persistenceCore/releases
 
 ## What changed
 
-- Upgraded `cosmos-sdk` from `v0.45.11` to [v0.45.12](https://github.com/cosmos/cosmos-sdk/blob/v0.45.12/CHANGELOG.md)
-- Using informal system fork of tendermint [v0.34.25](https://github.com/informalsystems/tendermint/blob/v0.34.25/CHANGELOG.md)
-- Upgraded `wasmd` from `v0.29.2` to [v0.30.0](https://github.com/CosmWasm/wasmd/blob/v0.30.0/CHANGELOG.md)
-- Upgraded `ibc-go` from `v3.4.0` to [v4.3.0](https://github.com/cosmos/ibc-go/releases/tag/v4.3.0)  
-    ICS29 - Fee Middleware was introduced in `ibc-go@v4`.  
-    But we've not integrated this in our chain for now.
+- Upgraded `cosmos-sdk` from `v0.45.11` to `v0.45.12` ([CHANGELOG](https://github.com/cosmos/cosmos-sdk/blob/v0.45.12/CHANGELOG.md))
+- Using informal system fork of tendermint, from [v0.34.23](https://github.com/tendermint/tendermint/tree/v0.34.23) to [v0.34.25](https://github.com/informalsystems/tendermint/tree/v0.34.25) ([CHANGELOG](https://github.com/informalsystems/tendermint/blob/v0.34.25/CHANGELOG.md))
+- Upgraded `wasmd` from `v0.29.2` to `v0.30.0` ([CHANGELOG](https://github.com/CosmWasm/wasmd/blob/v0.30.0/CHANGELOG.md))
+- Upgraded `ibc-go` from `v3.4.0` to `v4.3.0` ([CHANGELOG](https://github.com/cosmos/ibc-go/blob/v4.3.0/CHANGELOG.md))  
+    ICS29 - Fee Middleware was introduced in `ibc-go@v4`, but disabled for this upgrade.
+- Upgraded `persistence-sdk` from `v1.0.0` to `v2.0.0-rc0` ([CHANGELOG](https://github.com/persistenceOne/persistence-sdk/releases/tag/v2.0.0-rc0))
+- Upgraded `pstake-native` from `v1.4.0` to `v2.0.0-rc0` ([CHANGELOG](https://github.com/persistenceOne/pstake-native/releases/tag/v2.0.0-rc0))
 
 ## How to upgrade
 
