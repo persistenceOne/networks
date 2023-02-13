@@ -1,7 +1,7 @@
 # v6 to v7
 
-Persistence v7 gov proposal: [x](https://testnet.ping.pub/test-core-1/gov/x) \
-Height: [x](https://testnet.ping.pub/test-core-1/gov/x) (Countdown) \
+Persistence v7 gov proposal: [147](https://testnet.ping.pub/test-core-1/gov/147) \
+Height: [10209300](https://testnet.mintscan.io/persistence-testnet/blocks/10209300) (Countdown) \
 Release: [v7.0.0-rc0](https://github.com/persistenceOne/persistenceCore/releases/tag/v7.0.0-rc0)
 
 **NOTE: Please use `go 1.19.3+` version**
@@ -12,8 +12,8 @@ Checkout the [release](https://github.com/persistenceOne/persistenceCore/release
 
 ## How to upgrade
 
-- [Upgrade using cosmovisor](https://docs.persistence.one/build/nodes-and-endpoints/join-testnet#cosmovisor)
-- [Upgrade manually](https://docs.persistence.one/build/nodes-and-endpoints/join-testnet#manual-option)
+- [Upgrade using cosmovisor](https://docs.persistence.one/build/nodes-and-endpoints/join-testnet#a.-using-cosmovisor)
+- [Upgrade manually](https://docs.persistence.one/build/nodes-and-endpoints/join-testnet#b.-upgrade-by-manually-swapping-the-upgrade-binary-without-cosmovisor)
 
 ## Communications
 
