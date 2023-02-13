@@ -1,7 +1,6 @@
 # Persistence v7
 
-This is a proposal to do a software upgrade to the v7.0.0-rc0 software tag of the Persistence codebase on block height 10209300, which is estimated to occur on **[10209300](https://testnet.mintscan.io/persistence-testnet/blocks/10209300)**. Block times have high variance, so please monitor
-the chain for more precise time estimates.
+This is a proposal to do a software upgrade to the v7.0.0-rc0 software tag of the Persistence codebase on block height **[10209300](https://testnet.mintscan.io/persistence-testnet/blocks/10209300)**, which is estimated to occur on Wednesday 15 February 2023 around 2PM GMT. Block times have high variance, so please monitor the chain for precise time
 
 ## Dependency upgrades
 
@@ -23,4 +22,4 @@ The proposal targets the upgrade proposal block to be **10209300**. Note that bl
 
 The upgrade is anticipated to take approx 30 minutes, during which time, there will not be any on-chain activity on the network.
 
-In the event of an issue at upgrade time, we should coordinate via the validators channel in discord to come to a quick emergency consensus and mitigate any further issues.
+In the event of an issue at upgrade time, we shall coordinate via the [testnet-validators-discussion](https://discord.com/channels/796174129077813248/1042043039113289778) channel in discord to come to a quick emergency consensus and mitigate any further issues
