@@ -14,12 +14,14 @@ This is a proposal to do a software upgrade to the v7.0.0 software tag of the Pe
 
 [Full Change Log](https://github.com/persistenceOne/persistenceCore/compare/v6.1.0...v7.0.0)
 
+## Upgrade Guide
+
 Please follow [this](https://github.com/persistenceOne/networks/blob/master/core-1/upgrades/v7/guide.md) guide for upgrade
 
 ## Details of Upgrade Time
 
 The proposal targets the upgrade proposal block to be **10305821**. Note that block times have high variance, so keep monitoring the time. See countdown [here](https://www.mintscan.io/persistence/blocks/10305821).
 
-The upgrade is anticipated to take approx 30 minutes, during which time, there will not be any on-chain activity on the network.
+The upgrade is anticipated to take approx 15 minutes, during which time, there will not be any on-chain activity on the network.
 
 In the event of an issue at upgrade time, we shall coordinate via the [#validators-discussion](https://discord.gg/hnvDDzRFrV) channel in discord to come to a quick emergency consensus and mitigate any further issues
