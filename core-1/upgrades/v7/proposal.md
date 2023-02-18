@@ -1,6 +1,6 @@
 # Persistence v7
 
-This is a proposal to do a software upgrade to the v7.0.0 software tag of the Persistence codebase on block height **[10305821](https://www.mintscan.io/persistence/blocks/10305821)**, which is estimated to occur on Tuesday 27 February 2023 around 2:00PM GMT. Block times have high variance, so please monitor the chain for precise time
+This is a proposal to do a software upgrade to the v7.0.0 software tag of the Persistence codebase on block height **[10305400](https://www.mintscan.io/persistence/blocks/10305400)**, which is estimated to occur on Tuesday 28 February 2023 around 2:00PM GMT. Block times have high variance, so please monitor the chain for precise time
 
 ## Dependency upgrades
 
@@ -20,7 +20,7 @@ Please follow [this](https://github.com/persistenceOne/networks/blob/master/core
 
 ## Details of Upgrade Time
 
-The proposal targets the upgrade proposal block to be **10305821**. Note that block times have high variance, so keep monitoring the time. See countdown [here](https://www.mintscan.io/persistence/blocks/10305821).
+The proposal targets the upgrade proposal block to be **10305400**. Note that block times have high variance, so keep monitoring the time. See countdown [here](https://www.mintscan.io/persistence/blocks/10305400).
 
 The upgrade is anticipated to take approx 15 minutes, during which time, there will not be any on-chain activity on the network.
 

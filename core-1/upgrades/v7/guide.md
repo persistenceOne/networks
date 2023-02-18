@@ -1,7 +1,7 @@
 # v6 to v7
 
 Persistence v7 gov proposal: [xx](https://www.mintscan.io/persistence/proposals/xx) \
-Height: [10305821](https://www.mintscan.io/persistence/blocks/10305821) (Countdown) \
+Height: [10305400](https://www.mintscan.io/persistence/blocks/10305400) (Countdown) \
 Release: [v7.0.0](https://github.com/persistenceOne/persistenceCore/releases/tag/v7.0.0)
 
 **NOTE: Please use `go 1.19.3+` version**
