@@ -4,8 +4,8 @@ This is a proposal to do a software upgrade to the v7.0.0 software tag of the Pe
 
 ## Dependency upgrades
 
-* Upgraded `cosmos-sdk` from `v0.45.11` to `v0.45.12` ([CHANGELOG](https://github.com/cosmos/cosmos-sdk/blob/v0.45.12/CHANGELOG.md))
-* Using informal system fork of tendermint, from [v0.34.23](https://github.com/tendermint/tendermint/tree/v0.34.23) to [v0.34.25](https://github.com/informalsystems/tendermint/tree/v0.34.25) ([CHANGELOG](https://github.com/informalsystems/tendermint/blob/v0.34.25/CHANGELOG.md))
+* Upgraded `cosmos-sdk` from `v0.45.11` to `v0.45.14` ([CHANGELOG](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.45.14))
+* Using informal system fork of tendermint, from [tendermint/v0.34.23](https://github.com/tendermint/tendermint/releases/tag/v0.34.23) to [informalsystems/v0.34.26](https://github.com/informalsystems/tendermint/releases/tag/v0.34.26) ([CHANGELOG](https://github.com/informalsystems/tendermint/blob/v0.34.26/CHANGELOG.md#v03426))
 * Upgraded `wasmd` from `v0.29.2` to `v0.30.0` ([CHANGELOG](https://github.com/CosmWasm/wasmd/blob/v0.30.0/CHANGELOG.md))
 * Upgraded `ibc-go` from `v3.4.0` to `v4.3.0` ([CHANGELOG](https://github.com/cosmos/ibc-go/blob/v4.3.0/CHANGELOG.md))  
     ICS29 - Fee Middleware was introduced in `ibc-go@v4`, but disabled for this upgrade.
