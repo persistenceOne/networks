@@ -1,6 +1,6 @@
 # v6 to v7
 
-Persistence v7 gov proposal: [xx](https://www.mintscan.io/persistence/proposals/xx) \
+Persistence v7 gov proposal: [19](https://www.mintscan.io/persistence/proposals/19) \
 Height: [10305400](https://www.mintscan.io/persistence/blocks/10305400) (Countdown) \
 Release: [v7.0.0](https://github.com/persistenceOne/persistenceCore/releases/tag/v7.0.0)
 
