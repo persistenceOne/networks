@@ -1,6 +1,6 @@
 # Persistence v7
 
-This is a proposal to do a software upgrade to the v7.0.0 software tag of the Persistence codebase on block height **[10305400](https://www.mintscan.io/persistence/blocks/10305400)**, which is estimated to occur on Tuesday 28 February 2023 around 2:00PM GMT. Block times have high variance, so please monitor the chain for precise time
+This is a proposal to do a software upgrade to the v7.0.0 software tag of the Persistence codebase on block height **[10305400](https://www.mintscan.io/persistence/blocks/10305400)**, which is estimated to occur on **Tuesday 28 February 2023 around 2:00PM GMT**. Block times have high variance, so please monitor the chain for precise time
 
 ## Dependency upgrades
 
