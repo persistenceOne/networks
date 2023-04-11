@@ -16,13 +16,15 @@ This is a proposal to do a software upgrade to the v8.0.0-rc0 software tag of th
 
 * Minimums commission rate is set to 5%, which was proposed [here](https://www.mintscan.io/persistence/proposals/18)
 
-> **Note**
-> During upgrade, If the validator's commission rate is lower than the Min Rate (i.e. 5%), it will be set to 5%.
+    > **Note**  
+    > During upgrade, If the validator's commission rate is lower than the Min Rate (i.e. 5%), it will be set to 5%.
 
 ## Features
 
-* LSM
-* Oracle
+* x/lsnative:  
+    This module implements cosmos modules from [liquidity-staking-module](https://github.com/iqlusioninc/liquidity-staking-module), which is the original staking, slashing, distribution, genutil Cosmos SDK modules.
+
+* x/oracle
 
 [Full Change Log](https://github.com/persistenceOne/persistenceCore/compare/v7.0.0...v8.0.0-rc0)
 
