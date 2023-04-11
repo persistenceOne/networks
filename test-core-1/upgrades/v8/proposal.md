@@ -22,7 +22,7 @@ This is a proposal to do a software upgrade to the v8.0.0-rc0 software tag of th
 ## Features
 
 * x/lsnative:  
-    This module implements cosmos modules from [liquidity-staking-module](https://github.com/iqlusioninc/liquidity-staking-module), which is the original staking, slashing, distribution, genutil Cosmos SDK modules.
+    This module implements cosmos modules from [liquidity-staking-module](https://github.com/iqlusioninc/liquidity-staking-module), which forks the original staking, slashing, distribution, genutil Cosmos SDK modules.
 
 * x/oracle
 
