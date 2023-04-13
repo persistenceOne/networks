@@ -27,6 +27,9 @@ This is a proposal to do a software upgrade to the v8.0.0-rc0 software tag of th
 * x/oracle:  
     This module implements the chain side of our new decentralized price oracle native to the Cosmos ecosystem. It collects prices for the price feeds and allows to query them from other modules and CW contracts.
 
+    > **Note**  
+    > The validators are required to run oracle price feeder along with the validator node. Check this doc for [How to setup Oracle Feeder](https://github.com/persistenceOne/persistence-docs/blob/main/build/validators/setup-oracle-feeder.md)
+
 [Full Change Log](https://github.com/persistenceOne/persistenceCore/compare/v7.0.0...v8.0.0-rc0)
 
 Please follow [this](https://github.com/persistenceOne/networks/blob/master/test-core-1/upgrades/v8/guide.md) guide for upgrade
