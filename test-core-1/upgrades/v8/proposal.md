@@ -22,7 +22,7 @@ This is a proposal to do a software upgrade to the v8.0.0-rc0 software tag of th
 ## Features
 
 * x/lsnative:  
-    Adds an implementation of liquid staking for the native coins (`XPRT`), forked from [liquidity-staking-module](https://github.com/iqlusioninc/liquidity-staking-module), which forks the original `staking`, `slashing`, `distribution`, `genutil` Cosmos SDK v46 modules.
+    Adds an implementation to tokenise staked native coins (`XPRT`), forked from [liquidity-staking-module](https://github.com/iqlusioninc/liquidity-staking-module), which forks the original `staking`, `slashing`, `distribution`, `genutil` Cosmos SDK v46 modules.
 
 * x/oracle:  
     This module implements the chain side of our new decentralized price oracle native to the Cosmos ecosystem. It collects prices for the price feeds and allows to query them from other modules and CW contracts.
