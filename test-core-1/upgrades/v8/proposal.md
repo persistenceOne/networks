@@ -21,7 +21,7 @@ This is a proposal to do a software upgrade to the v8.0.0-rc0 software tag of th
 
 ## Features
 
-* x/lsnative:  
+* x/lsnative: (Liquid Staking Module / LSM)  
     Adds an implementation to tokenise staked native coins (`XPRT`), forked from [liquidity-staking-module](https://github.com/iqlusioninc/liquidity-staking-module), which forks the original `staking`, `slashing`, `distribution`, `genutil` Cosmos SDK v46 modules.
 
 * x/oracle:  
