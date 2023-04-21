@@ -14,7 +14,7 @@ This is a proposal to do a software upgrade to the v8.0.0-rc0 software tag of th
 
 ## Min Commission Rate
 
-* Minimums commission rate is set to 5%, which was proposed [here](https://www.mintscan.io/persistence/proposals/18)
+* Minimum commission rate is set to 5%, which was proposed [here](https://www.mintscan.io/persistence/proposals/18)
 
     > **Note**  
     > During upgrade, If the validator's commission rate is lower than the Min Rate (i.e. 5%), it will be set to 5%.
