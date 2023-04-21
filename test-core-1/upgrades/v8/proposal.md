@@ -9,8 +9,8 @@ This is a proposal to do a software upgrade to the v8.0.0-rc0 software tag of th
 * Migrated to notionals wasmd [v0.30.0-sdk469.4](https://github.com/notional-labs/wasmd/blob/v0.30.0-sdk469.4/CHANGELOG.md#v0300-2022-12-02)
 * Upgraded `ibc-go` from `v4.3.0` to `v6.1.0` ([CHANGELOG](https://github.com/cosmos/ibc-go/blob/v6.1.0/CHANGELOG.md))  
     ICS29 - Fee middleware is enabled in this upgrade.
-* Upgraded `persistence-sdk` from `v2.0.0` to `v3.0.0-rc0` ([CHANGELOG](https://github.com/persistenceOne/persistence-sdk/releases/tag/v3.0.0-rc0))
-* Upgraded `pstake-native` from `v2.0.0` to `v3.0.0-rc0` ([CHANGELOG](https://github.com/persistenceOne/pstake-native/releases/tag/v3.0.0-rc0))
+* Upgraded `persistence-sdk` from `v2.0.0` to `v2.1.0-rc1` ([CHANGELOG](https://github.com/persistenceOne/persistence-sdk/releases/tag/v2.1.0-rc1))
+* Upgraded `pstake-native` from `v2.0.0` to `v2.1.0-rc0` ([CHANGELOG](https://github.com/persistenceOne/pstake-native/releases/tag/v2.1.0-rc0))
 
 ## Min Commission Rate
 
