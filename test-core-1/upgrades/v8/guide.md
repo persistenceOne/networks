@@ -1,6 +1,6 @@
 # v7 to v8
 
-Persistence v8 gov proposal: [155](https://testnet.ping.pub/test-core-1/gov/155) \
+Persistence v8 gov proposal: [156](https://testnet.mintscan.io/persistence-testnet/proposals/156) \
 Height: [11051500](https://testnet.mintscan.io/persistence-testnet/blocks/11051500) (Countdown) \
 Release: [v8.0.0-rc0](https://github.com/persistenceOne/persistenceCore/releases/tag/v8.0.0-rc0)
 
