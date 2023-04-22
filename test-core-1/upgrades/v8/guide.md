@@ -12,8 +12,8 @@ Checkout the [release](https://github.com/persistenceOne/persistenceCore/release
 
 ## How to upgrade
 
-- [Upgrade using cosmovisor](https://docs.persistence.one/build/nodes-and-endpoints/join-testnet#a.-using-cosmovisor)
-- [Upgrade manually](https://docs.persistence.one/build/nodes-and-endpoints/join-testnet#b.-upgrade-by-manually-swapping-the-upgrade-binary-without-cosmovisor)
+- [Upgrade using cosmovisor](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/cosmovisor-upgrades)
+- [Upgrade manually](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/manual-upgrades)
 
 ## Communications
 
