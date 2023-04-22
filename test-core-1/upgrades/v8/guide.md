@@ -17,7 +17,7 @@ Checkout the [release](https://github.com/persistenceOne/persistenceCore/release
 
 ## Communications
 
-Operators are encouraged to join the [#validators-discussion](https://discord.gg/hnvDDzRFrV)
+Operators are encouraged to join the [#testnet-validators-discussion](https://discord.gg/aGyvqujJ)
 channel of the Persistence Community Discord. This channel is the primary communication tool
 for operators to ask questions, report upgrade status, report technical issues, and to build
 social consensus should the need arise. If you don't have access, please reach out to someone
