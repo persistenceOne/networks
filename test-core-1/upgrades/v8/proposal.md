@@ -1,6 +1,6 @@
 # Persistence v8
 
-This is a proposal to do a software upgrade to the v8.0.0-rc0 software tag of the Persistence codebase on block height **[{height}](https://testnet.mintscan.io/persistence-testnet/blocks/{height})**, which is estimated to occur on {timestamp}. Block times have high variance, so please monitor the chain for precise time
+This is a proposal to do a software upgrade to the `v8.0.0-rc0` software tag of the Persistence codebase on block height **[11051500](https://testnet.mintscan.io/persistence-testnet/blocks/11051500)**, which is estimated to occur on Monday 24 April 2023 around 10:30AM GMT. Block times have high variance, so please monitor the chain for precise time
 
 ## Dependency upgrades
 
@@ -36,7 +36,7 @@ Please follow [this](https://github.com/persistenceOne/networks/blob/master/test
 
 ## Details of Upgrade Time
 
-The proposal targets the upgrade proposal block to be **{height}**. Note that block times have high variance, so keep monitoring the time. See countdown [here](https://testnet.mintscan.io/persistence-testnet/blocks/{height}).
+The proposal targets the upgrade proposal block to be **11051500**. Note that block times have high variance, so keep monitoring the time. See countdown [here](https://testnet.mintscan.io/persistence-testnet/blocks/11051500).
 
 The upgrade is anticipated to take approx 30 minutes, during which time, there will not be any on-chain activity on the network.
 

@@ -1,7 +1,7 @@
 # v7 to v8
 
-Persistence v8 gov proposal: [x](https://testnet.ping.pub/test-core-1/gov/x) \
-Height: [x](https://testnet.mintscan.io/persistence-testnet/blocks/x) (Countdown) \
+Persistence v8 gov proposal: [155](https://testnet.ping.pub/test-core-1/gov/155) \
+Height: [11051500](https://testnet.mintscan.io/persistence-testnet/blocks/11051500) (Countdown) \
 Release: [v8.0.0-rc0](https://github.com/persistenceOne/persistenceCore/releases/tag/v8.0.0-rc0)
 
 **NOTE: Please use `go 1.19.3+` version**
