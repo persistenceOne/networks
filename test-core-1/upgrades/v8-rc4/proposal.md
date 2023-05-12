@@ -11,7 +11,7 @@ This is a proposal to do a software upgrade to the `v8.0.0-rc4` software tag of 
 
 [Full Change Log](https://github.com/persistenceOne/persistenceCore/compare/v8.0.0-rc2...v8.0.0-rc4)
 
-Please follow [this](https://github.com/persistenceOne/networks/blob/master/test-core-1/upgrades/v8-rc4/guide.md) guide for upgrade
+Please follow [this](https://github.com/persistenceOne/networks/blob/f/test-core-1/upgrades/v8-rc4/test-core-1/upgrades/v8-rc4/guide.md) guide for upgrade
 
 ## Details of Upgrade Time
 
