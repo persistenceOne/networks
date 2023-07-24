@@ -43,7 +43,13 @@ This is a proposal to do a software upgrade to the `v8.0.0` software tag of the 
 - `GlobalLiquidStakingCap` is set to `10%`
 - `ValidatorLiquidStakingCap` is set to `50%`
 
-### Dependencies and other upgrades
+### About pStake v2.2.0
+
+This is a major release for the pStake app, focused on enhancing the liquid staking capabilities of the platform and increase its future functionality and adaptability.
+
+It introduces a new module `liquidstakeibc` which includes major updates and opens up the path for future features, such as chain expansion, while also keeping the core tech up to date in preparation for future groundbreaking updates in the interchain, such as the Liquid Staking Module (LSM).
+
+### Other dependencies and upgrades
 
 Checkout the [release log](https://github.com/persistenceOne/persistenceCore/releases/tag/v8.0.0) for what's changed.
 
