@@ -1,6 +1,6 @@
 # Persistence v8
 
-This is a proposal to do a software upgrade to the `v8.0.0` software tag of the Persistence codebase on block height **[TODO_HEIGHT](https://testnet.mintscan.io/persistence-testnet/blocks/11051500)**, which is estimated to occur on Tuesday X July 2023 around 10:30AM GMT. Block times have high variance, so please monitor the chain for precise time.
+This is a proposal to do a software upgrade to the `v8.0.0` software tag of the Persistence codebase on block height **[861000](https://testnet.mintscan.io/persistence-testnet/blocks/861000)**, which is estimated to occur on Tuesday 25th July 2023 around 13:15PM GMT. Block times have high variance, so please monitor the chain for precise time.
 
 ## Changelog
 
