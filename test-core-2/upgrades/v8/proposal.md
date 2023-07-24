@@ -37,6 +37,10 @@ This is a proposal to do a software upgrade to the `v8.0.0` software tag of the 
 
 - `MinInitialDepositRatio` is set to `25%`, which means a proposal cannot be submitted with deposit lower than `25%` of `MinInitialDeposit`
 
+### MinSelfDelegation
+
+Due to LSM implementation, the `min-self-delegation` flag has no effect anymore and this param is no longer being enforced. Min self delegation is removed from the staking system with the expectation that it will be replaced by the validator bond system. It has been superceded by `ValidatorBondFactor`. To study its definition and side effects, see [Validator Bond in ADR-61](https://github.com/iqlusioninc/cosmos-sdk/blob/v0.45.16-ics-lsm/docs/architecture/adr-061-liquid-staking.md#validator-bond).
+
 ### LSM Params
 
 - `ValidatorBondFactor` is set to `250`
