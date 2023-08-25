@@ -1,0 +1,18 @@
+{
+ "messages": [
+  {
+   "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+   "authority": "persistence10d07y265gmmuvt4z0w9aw880jnsr700j5w4kch",
+   "plan": {
+    "name": "v8.1.0",
+    "time": "0001-01-01T00:00:00Z",
+    "height": "1390650",
+    "info": "https://raw.githubusercontent.com/persistenceOne/networks/f/test-core-2/upgrades/v8.1.0/test-core-2/upgrades/v8.1.0/binaries.json?checksum=sha256:469a66a54855f4f901960766ad359614bbbc4ba8ed80bbc69e8bd3e246f9180d",
+    "upgraded_client_state": null
+   }
+  }
+ ],
+ "deposit": "600000000uxprt",
+ "title": "Upgrade v8.1.0 PersistenceCore",
+ "summary": "This is a proposal to do a software upgrade to [v8.1.0](https://github.com/persistenceOne/persistenceCore/releases/tag/v8.1.0)"
+}
