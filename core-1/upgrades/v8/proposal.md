@@ -11,7 +11,7 @@ _Pacaya is an active complex volcano in Guatemala known for its persistent activ
 - Upgrades ibc-go from `v4.3.1` to [v7.2.0](https://github.com/cosmos/ibc-go/releases/tag/v7.2.0) LSM fork including [huckleberry](https://forum.cosmos.network/t/ibc-security-advisory-huckleberry/10731) security fix
 - Upgrades wasmd from `v0.30.0` to [v0.40.2](https://github.com/CosmWasm/wasmd/tree/v0.40.2) LSM fork & wasmvm to `1.2.4` including [cherry](https://github.com/CosmWasm/advisories/blob/main/CWAs/CWA-2023-002.md) bugfix
 - **Some SDK 47 things to keep in mind:**
-  - The SDK version includes some key store migration for the CLI. Make sure you backup your private keys before testing this! You can not switch back to v45 keys
+  - The SDK version includes some key store migration for the CLI. Make sure you backup your private keys before doing upgrade! You can not switch back to v45 keys
   - CLI: `add-genesis-account`, `gentx`, `add-genesis-account`, `collect-gentxs` and others are now under `genesis` command as parent
   - CLI: `--broadcast-mode block` was removed. You need to query the result for a TX with `persistenceCore q tx <hash>` instead
 - Upgrades persistence-sdk from `v2.0.1` to [v2.1.1](https://github.com/persistenceOne/persistence-sdk/releases/tag/v2.1.1)
@@ -64,7 +64,7 @@ Checkout the [release log v8.0.0](https://github.com/persistenceOne/persistenceC
 
 ### Communications
 
-Operators are encouraged to join the [#testnet-validators-discussion](https://discord.gg/aGyvqujJ)
+Operators are encouraged to join the [#validators-discussion](https://discord.persistence.one)
 channel of the Persistence Community Discord. This channel is the primary communication tool
 for operators to ask questions, report upgrade status, report technical issues, and to build
 social consensus should the need arise. If you don't have access, please reach out to someone
