@@ -1,0 +1,18 @@
+{
+ "messages": [
+  {
+   "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+   "authority": "persistence10d07y265gmmuvt4z0w9aw880jnsr700j5w4kch",
+   "plan": {
+    "name": "v9",
+    "time": "0001-01-01T00:00:00Z",
+    "height": "13160000",
+    "info": "",
+    "upgraded_client_state": null
+   }
+  }
+ ],
+ "deposit": "10000000uxprt",
+ "title": "PersistenceCore v9 Katmai Upgrade",
+ "summary": "This is a proposal to do a software upgrade to [v9.1.1](https://github.com/persistenceOne/persistenceCore/releases/tag/v9.1.1)"
+}
