@@ -7,12 +7,12 @@
     "name": "v9",
     "time": "0001-01-01T00:00:00Z",
     "height": "13160000",
-    "info": "",
+    "info": "https://raw.githubusercontent.com/persistenceOne/networks/f/core-1/upgrades/v9/core-1/upgrades/v9/binaries.json?checksum=sha256:6bda1b85e45a34a8799aa2f7f6084a96b0fcd5983e48296ba5dbad57f1bee2d2",
     "upgraded_client_state": null
    }
   }
  ],
- "deposit": "10000000uxprt",
+ "deposit": "128000000uxprt",
  "title": "PersistenceCore v9 Katmai Upgrade",
  "summary": "This is a proposal to do a software upgrade to [v9.1.1](https://github.com/persistenceOne/persistenceCore/releases/tag/v9.1.1)"
 }
