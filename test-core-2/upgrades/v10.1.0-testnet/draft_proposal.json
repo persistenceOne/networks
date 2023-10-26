@@ -1,0 +1,18 @@
+{
+ "messages": [
+  {
+   "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+   "authority": "persistence10d07y265gmmuvt4z0w9aw880jnsr700j5w4kch",
+   "plan": {
+    "name": "v10.1.0-testnet",
+    "time": "0001-01-01T00:00:00Z",
+    "height": "2225300",
+    "info": "https://raw.githubusercontent.com/persistenceOne/networks/test-core-2/upgrades/v10.1.0-testnet/test-core-2/upgrades/v10.1.0-testnet/binaries.json?checksum=sha256:d1af6ed93da2e5c89b2f4dd852685c7c4384270da9acc1615f05f7f93b5078d5",
+    "upgraded_client_state": null
+   }
+  }
+ ],
+ "deposit": "600000000uxprt",
+ "title": "Upgrade v10.1.0-testnet PersistenceCore",
+ "summary": "This is a proposal to do a software upgrade to [v10.1.0-testnet](https://github.com/persistenceOne/persistenceCore/releases/tag/v10.1.0-testnet)"
+}
