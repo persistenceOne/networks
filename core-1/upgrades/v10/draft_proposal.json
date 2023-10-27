@@ -6,13 +6,13 @@
    "plan": {
     "name": "v10",
     "time": "0001-01-01T00:00:00Z",
-    "height": "13868150",
+    "height": "13870350",
     "info": "https://raw.githubusercontent.com/persistenceOne/networks/core-1/upgrades/v10/core-1/upgrades/v10/binaries.json?checksum=sha256:dce248386b1bcf51f30be73812724072621ae1f4dde1fcd193665153628b04dc",
     "upgraded_client_state": null
    }
   }
  ],
  "deposit": "3500000000uxprt",
- "title": "PersistenceCore v10 Katmai Upgrade",
+ "title": "PersistenceCore v10 Annapurna Upgrade",
  "summary": "This is a proposal to do a software upgrade to [v10.0.0](https://github.com/persistenceOne/persistenceCore/releases/tag/v10.0.0)"
 }
