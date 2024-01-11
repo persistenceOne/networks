@@ -1,0 +1,18 @@
+{
+ "messages": [
+  {
+   "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+   "authority": "persistence10d07y265gmmuvt4z0w9aw880jnsr700j5w4kch",
+   "plan": {
+    "name": "v11.2.0",
+    "time": "0001-01-01T00:00:00Z",
+    "height": "3466500",
+    "info": "https://raw.githubusercontent.com/persistenceOne/networks/test-core-2/upgrades/v11.2.0/test-core-2/upgrades/v11.2.0/binaries.json?checksum=sha256:0ca8a79faee4bfe0b0b8e0a5739ca80949f50424b02d54c47df134a78d4e2792",
+    "upgraded_client_state": null
+   }
+  }
+ ],
+ "deposit": "600000000uxprt",
+ "title": "Upgrade v11.2.0 PersistenceCore",
+ "summary": "This is a proposal to do a software upgrade to [v11.2.0](https://github.com/persistenceOne/persistenceCore/releases/tag/v11.2.0)"
+}
