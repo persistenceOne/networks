@@ -6,7 +6,7 @@
    "plan": {
     "name": "v10.3.0",
     "time": "0001-01-01T00:00:00Z",
-    "height": "14953300",
+    "height": "14965000",
     "info": "https://raw.githubusercontent.com/persistenceOne/networks/core-1/upgrades/v10.3.0/core-1/upgrades/v10.3.0/binaries.json?checksum=sha256:3e2e2e633cff6a61b1303b8a57d2aedf1302f88dfd6b4c02342dabf517761f4c",
     "upgraded_client_state": null
    }
