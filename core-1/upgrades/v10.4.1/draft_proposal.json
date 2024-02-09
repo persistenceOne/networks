@@ -7,7 +7,7 @@
                 "name": "v10.4.1",
                 "time": "0001-01-01T00:00:00Z",
                 "height": "15386200",
-                "info": "https://raw.githubusercontent.com/persistenceOne/networks/core-1/upgrades/v10.4.1/core-1/upgrades/v10.4.1/binaries.json?checksum=sha256:ba34cb53726cfa9ab58e8b242f5cab74e19140842f7ba11a0f74a1f4831406f4",
+                "info": "https://raw.githubusercontent.com/persistenceOne/networks/upgrades/v10.4.1/core-1/upgrades/v10.4.1/binaries.json?checksum=sha256:ba34cb53726cfa9ab58e8b242f5cab74e19140842f7ba11a0f74a1f4831406f4",
                 "upgraded_client_state": null
             }
         }
