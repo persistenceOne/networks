@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+      "authority": "persistence10d07y265gmmuvt4z0w9aw880jnsr700j5w4kch",
+      "plan": {
+        "name": "v11.9.0-rc0",
+        "time": "0001-01-01T00:00:00Z",
+        "height": "4795000",
+        "info": "https://raw.githubusercontent.com/persistenceOne/networks/test-core-2/upgrades/v11.9.0-rc0/test-core-2/upgrades/v11.9.0-rc0/binaries.json?checksum=sha256:85e1eda80321fae2fecc8fb005276b4019370181f6b6cc800dfedc432fc9f000",
+        "upgraded_client_state": null
+      }
+    }
+  ],
+  "deposit": "600000000uxprt",
+  "title": "Upgrade v11.9.0-rc0 PersistenceCore",
+  "summary": "This is a proposal to do a software upgrade to [v11.9.0-rc0](https://github.com/persistenceOne/persistenceCore/releases/tag/v11.9.0-rc0)"
+}
