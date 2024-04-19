@@ -7,7 +7,7 @@
         "name": "v11.10.0-rc0",
         "time": "0001-01-01T00:00:00Z",
         "height": "5012500",
-        "info": "https://raw.githubusercontent.com/persistenceOne/networks/test-core-2/upgrades/11.10.0-rc0/test-core-2/upgrades/v11.10.0-rc0/binaries.json?checksum=sha256:28657578e384376e2fb195a28dd7d938e6654ea6942ca1da73ce82c876f44668",
+        "info": "https://raw.githubusercontent.com/persistenceOne/networks/test-core-2/upgrades/11.10.0-rc0/test-core-2/upgrades/v11.10.0-rc0/binaries.json?checksum=sha256:4f334130f689cd16870950f86a87979948b23952f99ebad302886f9945811047",
         "upgraded_client_state": null
       }
     }
