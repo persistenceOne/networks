@@ -6,7 +6,7 @@
       "plan": {
         "name": "v11.10.0",
         "time": "0001-01-01T00:00:00Z",
-        "height": "xyz",
+        "height": "16392000",
         "info": "https://raw.githubusercontent.com/persistenceOne/networks/core-1/upgrades/v11.10.0/core-1/upgrades/v11.10.0/binaries.json?checksum=sha256:e3e031967372ab19cadcac32293dd67e8c626b7090000cd9ff0ec3339300c44c",
         "upgraded_client_state": null
       }
@@ -14,5 +14,5 @@
   ],
   "deposit": "3500000000uxprt",
   "title": "PersistenceCore v11.10.0",
-  "summary": "# Persistence Core-1 v11.10.0 Upgrade\nThis proposal is to do a software upgrade to the v11.10.0 software tag of the Persistence codebase at [xyz](https://www.mintscan.io/persistence/block/xyz) block height. Block times have high variance, so please monitor the chain for precise time.\n \n## Scope of the upgrade\n1. Update persistence-sdk dependency, which patches proof verification for ICQ that broke when ibc-go version was updated from v7.2.x to v7.4.0 \n\n## Changelog\n- Full changelog [here](https://github.com/persistenceOne/persistenceCore/compare/v11.9.0...v11.10.0).\n\n## How to upgrade\n[Upgrade using cosmovisor](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/cosmovisor-upgrades)\n\n[Upgrade manually](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/manual-upgrades)\n## Communications\nOperators are encouraged to join the #validators-discussionchannel of the Persistence Community Discord. This channel is the primary communication tool for operators to ask questions, report upgrade status, report technical issues, and build social consensus should the need arise. If you don’t have access, please contact someone from the Persistence team directly."
+  "summary": "# Persistence Core-1 v11.10.0 Upgrade\nThis proposal is to do a software upgrade to the v11.10.0 software tag of the Persistence codebase at [16392000](https://www.mintscan.io/persistence/block/16392000) block height. Block times have high variance, so please monitor the chain for precise time.\n \n## Scope of the upgrade\n1. Update persistence-sdk dependency, which patches proof verification for ICQ that broke when ibc-go version was updated from v7.2.x to v7.4.0 \n\n## Changelog\n- Full changelog [here](https://github.com/persistenceOne/persistenceCore/compare/v11.9.0...v11.10.0).\n\n## How to upgrade\n[Upgrade using cosmovisor](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/cosmovisor-upgrades)\n\n[Upgrade manually](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/manual-upgrades)\n## Communications\nOperators are encouraged to join the #validators-discussionchannel of the Persistence Community Discord. This channel is the primary communication tool for operators to ask questions, report upgrade status, report technical issues, and build social consensus should the need arise. If you don’t have access, please contact someone from the Persistence team directly."
 }
