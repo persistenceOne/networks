@@ -12,7 +12,7 @@
       }
     }
   ],
-  "deposit": "512000000",
+  "deposit": "512000000uxprt",
   "title": "Upgrade PersistenceCore to v11.10.0-rc0",
   "summary": "# Persistence Core-1 v11.10.0-rc0 Upgrade\nThis proposal is to do a software upgrade to the v11.10.0-rc0 software tag of the Persistence codebase at [5012500](https://www.mintscan.io/persistence-testnet/block/5012500) block height. Block times have high variance, so please monitor the chain for precise time.\n \n## Scope of the upgrade\n1. Update persistence-sdk dependency, which patches proof verification for ICQ that broke when ibc-go version was updated from v7.2.x to v7.4.0 \n\n## Change log\n- Full changelog [here](https://github.com/persistenceOne/persistenceCore/compare/v11.9.0...v11.10.0-rc0).\n\n## How to upgrade\n[Upgrade using cosmovisor](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/cosmovisor-upgrades)\n\n[Upgrade manually](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/manual-upgrades)\n## Communications\nOperators are encouraged to join the #validators-discussion channel of the Persistence Community Discord. This channel is the primary communication tool for operators to ask questions, report upgrade status, report technical issues, and build social consensus should the need arise. If you don’t have access, please contact someone from the Persistence team directly."
 }
