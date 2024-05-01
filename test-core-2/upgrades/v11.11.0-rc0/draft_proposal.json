@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+      "authority": "persistence10d07y265gmmuvt4z0w9aw880jnsr700j5w4kch",
+      "plan": {
+        "name": "v11.11.0-rc0",
+        "time": "0001-01-01T00:00:00Z",
+        "height": "5201500",
+        "info": "https://raw.githubusercontent.com/persistenceOne/networks/test-core-2/upgrades/11.11.0-rc0/test-core-2/upgrades/v11.11.0-rc0/binaries.json?checksum=sha256:bc399bad1b6bfabac802ae1abbf5ca9cc643fb9babee78f979d426ea0b483ab5",
+        "upgraded_client_state": null
+      }
+    }
+  ],
+  "deposit": "512000000uxprt",
+  "title": "Upgrade PersistenceCore to v11.11.0-rc0",
+  "summary": "# Persistence Core-1 v11.11.0-rc0 Upgrade\nThis proposal is to do a software upgrade to the v11.11.0-rc0 software tag of the Persistence codebase at [5201500](https://www.mintscan.io/persistence-testnet/block/5201500) block height. Block times have high variance, so please monitor the chain for precise time.\n \n## Scope of the upgrade\n1. Fix an issue with x/liquidstake automatic rebalancing. \n\n## Change log\n- Full changelog [here](https://github.com/persistenceOne/persistenceCore/compare/v11.10.0...v11.11.0-rc0).\n\n## How to upgrade\n[Upgrade using cosmovisor](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/cosmovisor-upgrades)\n\n[Upgrade manually](https://docs.persistence.one/build/nodes-and-endpoints/node-operations/manual-upgrades)\n## Communications\nOperators are encouraged to join the #validators-discussion channel of the Persistence Community Discord. This channel is the primary communication tool for operators to ask questions, report upgrade status, report technical issues, and build social consensus should the need arise. If you don’t have access, please contact someone from the Persistence team directly."
+}
