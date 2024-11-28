@@ -7,7 +7,7 @@
         "name": "v11.16.0",
         "time": "0001-01-01T00:00:00Z",
         "height": "19611500",
-        "info": "https://raw.githubusercontent.com/persistenceOne/networks/core-1/upgrades/v11.16.0/core-1/upgrades/v11.16.0/binaries.json?checksum=sha256:46d310ec4549dbe3e2725aa9e085ee01936dac8be64e0c6cbeeafc8175615873",
+        "info": "https://raw.githubusercontent.com/persistenceOne/networks/core-1/upgrades/v11.16.0/core-1/upgrades/v11.16.0/binaries.json?checksum=sha256:b198bb92c08d96cd6ed37e43ed437c8a0aa995a7406a1b6cca08c55d4cff81d7",
         "upgraded_client_state": null
       }
     }
