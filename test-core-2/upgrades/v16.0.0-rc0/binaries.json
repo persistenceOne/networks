@@ -1,0 +1,5 @@
+{
+  "binaries": {
+    "linux/amd64": "https://github.com/persistenceOne/persistenceCore/releases/download/v16.0.0-rc0/persistenceCore-v16.0.0-rc0-linux-amd64?checksum=sha256:e3d8792ac1515ba1a1430e48a6a3fe51ed585126a20aff30582c112591666f6d"
+  }
+}
